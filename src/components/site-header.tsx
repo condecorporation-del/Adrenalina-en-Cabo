@@ -66,8 +66,8 @@ export function SiteHeader({
     <header
       className={`${overHero ? "fixed" : "sticky"} top-0 inset-x-0 z-50 border-b transition-all duration-300 ${
         floating
-          ? "border-transparent bg-transparent"
-          : "border-linea bg-fondo/90 shadow-[0_2px_24px_-8px_rgb(16_24_32/0.1)] backdrop-blur-md"
+          ? "border-transparent bg-gradient-to-b from-abismo/50 to-transparent"
+          : "border-linea bg-fondo/85 shadow-[0_2px_24px_-8px_rgb(16_24_32/0.12)] backdrop-blur-xl"
       }`}
     >
       <div className="container-x flex h-20 items-center justify-between gap-5 sm:h-24">
@@ -98,7 +98,7 @@ export function SiteHeader({
           >
             <Link
               href={`/${locale}/tours`}
-              className={`flex items-center gap-1 py-6 text-sm font-semibold transition-colors ${
+              className={`relative flex items-center gap-1 py-6 text-sm font-semibold transition-colors after:absolute after:bottom-5 after:left-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:rounded-full after:bg-gradient-to-r after:from-marca after:to-coral after:transition-transform after:duration-300 hover:after:scale-x-100 ${
                 floating ? "text-white hover:text-white/80" : "text-texto hover:text-marca"
               }`}
               onFocus={() => setMenu(true)}
@@ -132,7 +132,7 @@ export function SiteHeader({
             <Link
               key={l.href}
               href={l.href}
-              className={`text-sm font-semibold transition-colors ${
+              className={`relative text-sm font-semibold transition-colors after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:rounded-full after:bg-gradient-to-r after:from-marca after:to-coral after:transition-transform after:duration-300 hover:after:scale-x-100 ${
                 floating ? "text-white hover:text-white/80" : "text-texto hover:text-marca"
               }`}
             >
