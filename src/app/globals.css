@@ -1,31 +1,38 @@
 @import "tailwindcss";
 
 /* ---------------------------------------------------------------------------
-   Adrenalina Cabo
+   Adrenalina Cabo — dirección "Horizonte Baja"
    Misma estructura que cactustours.com, identidad propia.
 
-   Cactus es verde; Adrenalina es azul. El azul sale del mar de Migriño y de
-   la paleta original de adrenalinacabo.com (#247BA0), llevado a un tono más
-   vivo. El naranja se conserva como acento: azul y naranja son complementarios
-   y hacen que el botón de reservar destaque de verdad.
+   El sitio se construye sobre el momento donde el desierto se encuentra con
+   el mar: la línea de horizonte de Playa Migriño. El azul (#0e7cc0) sale del
+   mar y el naranja (#f7921e) del atardecer sobre las dunas; el gradiente
+   mar→sol solo aparece en detalles pequeños (filetes, subrayados), nunca en
+   bloques grandes. El abismo (#0e3145) es el Pacífico profundo: secciones
+   oscuras y overlays sin caer en negro puro.
 
-   Gris de sección #F5F5F5 y texto #32373C, como los suyos.
-   Tipografía: Kumbh Sans 300–700.
+   Tipografía: titulares en Archivo Expanded (la letra de livery de carrera
+   off-road — la Baja 1000 corre por esos mismos desiertos); cuerpo en
+   Kumbh Sans 300–700.
    --------------------------------------------------------------------------- */
 
 @theme {
   /* Superficies */
   --color-fondo: #ffffff;
-  --color-fondo-2: #f5f5f5; /* secciones alternas, su gris */
+  --color-fondo-2: #f4f3f0; /* secciones alternas, gris apenas cálido (arena seca) */
   --color-panel: #ffffff;
-  --color-panel-2: #f7f7f7;
-  --color-linea: #e5e5e5;
+  --color-panel-2: #f6f5f2;
+  --color-linea: #e6e3dd;
 
   /* Azul de marca */
   --color-marca: #0e7cc0; /* azul de mar, vivo */
   --color-marca-2: #0a6299; /* hover, más profundo */
   --color-marca-soft: #e7f3fb; /* fondos suaves */
   --color-aqua: #35b6e8; /* azul claro, para acentos */
+
+  /* Pacífico profundo: secciones oscuras y overlays, nunca negro puro */
+  --color-abismo: #0e3145;
+  --color-abismo-2: #092434;
 
   /* Naranja de acento */
   --color-coral: #f7921e;
@@ -45,7 +52,7 @@
   --color-texto: #5f6b70;
   --color-tenue: #878787;
 
-  --font-display: var(--font-kumbh), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-archivo), var(--font-kumbh), ui-sans-serif, system-ui, sans-serif;
   --font-sans: var(--font-kumbh), ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -65,20 +72,27 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  font-weight: 700;
   line-height: 1.12;
-  letter-spacing: -0.022em;
+  letter-spacing: -0.018em;
   text-wrap: balance;
 }
 
-/* Los titulares grandes cierran más el tracking; los chicos lo abren. Es la
-   corrección óptica que hace que una escala tipográfica se vea deliberada. */
+/* Los titulares grandes van en Archivo Expanded 800: la letra ancha de la
+   numeración de competencia. Cierran el tracking menos que una condensada —
+   la forma expandida ya aprieta el bloque por sí sola. */
+h1,
+h2 {
+  font-weight: 800;
+  font-stretch: 125%;
+}
+
 h1 {
-  letter-spacing: -0.032em;
+  letter-spacing: -0.024em;
 }
 
 h3 {
-  letter-spacing: -0.014em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 p {
@@ -117,51 +131,59 @@ p {
   text-transform: uppercase;
 }
 
-/* Filete corto bajo el encabezado de sección: un detalle discreto que marca
-   jerarquía sin agregar peso visual. */
+/* Filete de horizonte: la línea corta bajo cada título es el motivo firma del
+   sitio — un segmento del horizonte de Migriño, del mar al atardecer. */
 @utility filete {
   display: block;
-  width: 2.5rem;
+  width: 3rem;
   height: 2px;
   border-radius: 999px;
-  background: var(--color-marca);
+  background: linear-gradient(90deg, var(--color-marca), var(--color-coral));
 }
 
-/* --- Botones: planos, como los suyos, con mejor estado de hover --------- */
+/* --- Botones: luz superior fina y sombra de color, como metal esmaltado --- */
 
-/* Principal: verde de marca. */
+/* Principal: azul de mar. */
 @utility btn-grad {
-  background: var(--color-marca);
+  background: linear-gradient(180deg, var(--color-marca) 0%, var(--color-marca-2) 100%);
   color: #fff;
   font-weight: 600;
-  box-shadow: 0 6px 18px -8px rgb(14 124 192 / 0.7);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.18),
+    0 8px 20px -10px rgb(14 124 192 / 0.7);
   transition:
-    background 0.2s ease,
+    filter 0.2s ease,
     box-shadow 0.2s ease,
     transform 0.2s ease;
 }
 
 .btn-grad:hover {
-  background: var(--color-marca-2);
-  box-shadow: 0 10px 26px -8px rgb(14 124 192 / 0.85);
+  filter: brightness(1.07);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.18),
+    0 12px 28px -10px rgb(14 124 192 / 0.85);
   transform: translateY(-1px);
 }
 
 /* Acento: naranja, para reservar. */
 @utility btn-naranja {
-  background: var(--color-coral);
+  background: linear-gradient(180deg, var(--color-coral) 0%, var(--color-coral-2) 100%);
   color: #fff;
   font-weight: 600;
-  box-shadow: 0 6px 18px -8px rgb(247 146 30 / 0.75);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.22),
+    0 8px 20px -10px rgb(247 146 30 / 0.75);
   transition:
-    background 0.2s ease,
+    filter 0.2s ease,
     box-shadow 0.2s ease,
     transform 0.2s ease;
 }
 
 .btn-naranja:hover {
-  background: var(--color-coral-2);
-  box-shadow: 0 10px 26px -8px rgb(247 146 30 / 0.9);
+  filter: brightness(1.05);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.22),
+    0 12px 28px -10px rgb(247 146 30 / 0.9);
   transform: translateY(-1px);
 }
 

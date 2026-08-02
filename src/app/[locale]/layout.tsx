@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Kumbh_Sans } from "next/font/google";
+import { Archivo, Kumbh_Sans } from "next/font/google";
 import "../globals.css";
 import { LOCALES, isLocale } from "@/lib/locales";
 
-/* La misma tipografía que usa cactustours.com, en su mismo rango de pesos. */
+/* Cuerpo: la misma tipografía que usa cactustours.com, en su mismo rango de
+   pesos. Titulares: Archivo con su eje de ancho — la variante expandida es
+   la letra de livery de las carreras off-road del desierto de Baja. */
 const kumbh = Kumbh_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-kumbh",
   display: "swap",
+});
+
+const archivo = Archivo({
+  subsets: ["latin"],
+  variable: "--font-archivo",
+  display: "swap",
+  axes: ["wdth"],
 });
 
 export function generateStaticParams() {
@@ -54,7 +63,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale === "es" ? "es-MX" : "en-US"}
-      className={kumbh.variable}
+      className={`${kumbh.variable} ${archivo.variable}`}
     >
       <body className="antialiased">{children}</body>
     </html>
