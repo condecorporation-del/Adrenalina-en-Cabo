@@ -350,12 +350,44 @@ p {
   animation: hero-zoom 7s ease-out both;
 }
 
+/* Entradas del sistema de navegación: el backdrop funde y el mega-panel
+   cae unos píxeles con la misma curva larga del resto del sitio. */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.25s ease both;
+}
+
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.menu-in {
+  animation: menu-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
   .rise,
-  .hero-zoom {
+  .hero-zoom,
+  .fade-in,
+  .menu-in {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
