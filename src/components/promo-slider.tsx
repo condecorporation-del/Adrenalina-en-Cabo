@@ -66,31 +66,43 @@ export function PromoSlider({
           className={`${n === i ? "block" : "hidden"}`}
           aria-hidden={n !== i}
         >
-          <div className="relative isolate text-white">
+          <div className="noise relative isolate text-white">
             {images?.[n] ? (
               <div
-                className="absolute inset-0 -z-10 bg-cover bg-center"
+                className={`absolute inset-0 -z-10 bg-cover bg-center ${n === i ? "hero-zoom" : ""}`}
                 style={{ backgroundImage: `url(${images[n]})` }}
               />
             ) : (
-              <div className={`absolute inset-0 -z-10 ${PHOTO[s.photo]}`} />
+              <div className={`absolute inset-0 -z-10 ${PHOTO[s.photo]} ${n === i ? "hero-zoom" : ""}`} />
             )}
-            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-noche/80 via-noche/35 to-transparent" />
+            {/* Scrims del Pacífico profundo: lateral para el texto, viñeta
+                inferior para anclar los controles, y un lavado cálido suave
+                que tiñe las luces de atardecer. Nunca negro puro. */}
+            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-abismo/85 via-abismo/40 to-transparent" />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-abismo/70 via-abismo/10 to-transparent" />
+            <div className="absolute inset-0 -z-10 bg-coral/15 mix-blend-soft-light" />
 
-            <div className="container-x pb-16 pt-32 sm:pb-24 sm:pt-40 lg:pb-28 lg:pt-44">
+            <div className="container-x flex min-h-[84svh] flex-col justify-center pb-24 pt-32 sm:pt-36">
               <div className="max-w-2xl">
-                <span className="eyebrow inline-block rounded-full bg-coral px-3 py-1.5 text-white">
+                <span className="rise eyebrow inline-block rounded-full bg-coral/95 px-3.5 py-1.5 text-white shadow-[0_4px_14px_-4px_rgb(255_104_3/0.6)]">
                   {s.eyebrow}
                 </span>
-                <h2 className="mt-5 text-3xl leading-tight sm:text-5xl lg:text-6xl">
+                <h2
+                  className="rise mt-5 text-4xl leading-[1.05] sm:text-6xl lg:text-7xl"
+                  style={{ animationDelay: "90ms" }}
+                >
                   {s.title}
                 </h2>
-                <p className="mt-4 max-w-xl leading-relaxed text-white/80">
+                <p
+                  className="rise mt-4 max-w-xl leading-relaxed text-white/85"
+                  style={{ animationDelay: "180ms" }}
+                >
                   {s.body}
                 </p>
                 <Link
                   href={`/${locale}${s.href}`}
-                  className="btn-grad mt-7 inline-block rounded-full px-7 py-3.5 text-sm"
+                  className="rise btn-grad mt-7 inline-block rounded-full px-7 py-3.5 text-sm"
+                  style={{ animationDelay: "270ms" }}
                 >
                   {s.cta}
                 </Link>
@@ -115,6 +127,13 @@ export function PromoSlider({
               }`}
             />
           ))}
+          {/* Contador de livery: numeración de competencia en Archivo. */}
+          <span
+            aria-hidden
+            className="ml-auto font-display text-xs font-bold tracking-[0.2em] text-white/70"
+          >
+            {String(i + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}
+          </span>
         </div>
       </div>
     </section>

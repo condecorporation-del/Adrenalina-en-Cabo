@@ -285,6 +285,23 @@ p {
   position: relative;
 }
 
+/* Grano de película sobre las fotos: rompe la perfección digital del stock
+   y unifica imágenes de distinto origen bajo una misma textura analógica. */
+@utility noise {
+  position: relative;
+}
+
+.noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.4;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
 @utility ph-desierto {
   background: linear-gradient(135deg, #f7921e 0%, #c96a2c 100%);
 }
@@ -318,11 +335,27 @@ p {
   animation: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
+/* Acercamiento lento de la foto del hero mientras el slide está activo:
+   la imagen respira en vez de quedar congelada detrás del texto. */
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
+}
+
+.hero-zoom {
+  animation: hero-zoom 7s ease-out both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
-  .rise {
+  .rise,
+  .hero-zoom {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
