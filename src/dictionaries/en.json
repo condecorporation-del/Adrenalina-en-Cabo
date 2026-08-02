@@ -1,0 +1,693 @@
+{
+  "nav": {
+    "home": "Home",
+    "pass": "Park Pass",
+    "tours": "Activities",
+    "combos": "Combos",
+    "kids": "For kids",
+    "groups": "Groups & Events",
+    "about": "About us",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "local": "Local Rate",
+    "partners": "Partners",
+    "book": "Book",
+    "menu": "Menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "Playa Migriño · Los Cabos",
+    "title": "Feel the adrenaline of Los Cabos",
+    "subtitle": "ATVs, Can-Am UTVs, camels, horses and sky bikes across the desert and beaches of Migriño. Round-trip transportation, bilingual guides and food included.",
+    "ctaPrimary": "See activities",
+    "ctaSecondary": "Message us on WhatsApp",
+    "stat1": "Happy guests",
+    "stat2": "Average rating",
+    "stat3": "Daily departures"
+  },
+  "strip": {
+    "transport": "Round-trip transportation",
+    "guides": "Certified bilingual guides",
+    "insurance": "Food and drinks included",
+    "medical": "24/7 medical service"
+  },
+  "steps": {
+    "eyebrow": "3 easy steps",
+    "title": "How to reserve",
+    "items": [
+      {
+        "n": "01",
+        "title": "Explore our tours",
+        "body": "Click to see available options."
+      },
+      {
+        "n": "02",
+        "title": "Choose an option",
+        "body": "Choose your tour and your departure time."
+      },
+      {
+        "n": "03",
+        "title": "Pay how you'd like",
+        "body": "We accept debit and credit cards including Amex, Visa and Mastercard."
+      }
+    ]
+  },
+  "tours": {
+    "eyebrow": "Our activities",
+    "title": "Pick your adventure",
+    "subtitle": "Price per person in US dollars. The park entrance fee ($25 USD per person) is charged separately and is mandatory on every tour.",
+    "from": "From",
+    "perPerson": "per person",
+    "passenger": "Second seat",
+    "included": "Included",
+    "duration": "Duration",
+    "minAge": "Min. age",
+    "years": "years",
+    "hours": "hours",
+    "hoursShort": "h",
+    "book": "Book",
+    "details": "See details",
+    "reviews": "reviews",
+    "seeAll": "See all activities",
+    "badgePopular": "Best seller",
+    "badgeNuevo": "New",
+    "badgeFamiliar": "Family friendly",
+    "badgePremium": "Premium",
+    "catAtv": "ATVs",
+    "catUtv": "UTV Can-ams",
+    "catCombo": "Combos",
+    "catSkybike": "Sky Bikes",
+    "catCamel": "Camel Ride",
+    "catHorse": "Horseback Ride",
+    "catBike": "Bikes"
+  },
+  "detail": {
+    "back": "All activities",
+    "overview": "The experience",
+    "highlights": "What guests love most",
+    "itinerary": "How the tour goes",
+    "includes": "What's included",
+    "excludes": "Not included",
+    "requirements": "Requirements and restrictions",
+    "departures": "Departure times",
+    "departuresNote": "In high season we add 8:00 and 17:00.",
+    "reqAgeDriver": "Minimum age to drive",
+    "reqAgePassenger": "Minimum passenger age",
+    "reqHeight": "Minimum height",
+    "reqWeight": "Maximum weight",
+    "reqGroup": "Maximum group",
+    "reqPeople": "people",
+    "reqId": "Government-issued photo ID required to drive.",
+    "warningTitle": "Read this before you book",
+    "warningBody": "Pregnant guests and anyone with back or neck problems, recent surgeries, or under the influence of alcohol or drugs cannot participate. Swimming is not allowed at Playa Migriño: it is open Pacific with very strong currents.",
+    "bookTitle": "Reserve your spot",
+    "bookNote": "Instant confirmation over WhatsApp. Free cancellation up to 48 hours before.",
+    "bookCta": "Book on WhatsApp",
+    "related": "Other activities you may like",
+    "rated": "rating across"
+  },
+  "pass": {
+    "eyebrow": "Day Pass",
+    "title": "One pass, every activity",
+    "subtitle": "Instead of booking a single tour, you buy access to the park and decide as you go: ATV in the morning, camel after lunch, Sky Bike before you leave. Repeat whichever you like, subject to availability.",
+    "cardEyebrow": "Day Pass",
+    "cardTitle": "Staying all day? The pass works out better",
+    "cardBody": "Open access to the activities, Beach Club, Kids Club, ecological trail and à la carte dining. You decide the order and how many times.",
+    "cardCta": "See the Day Pass",
+    "tiers": {
+      "medio-dia": {
+        "name": "Half Day",
+        "note": "Departures from 9:00 to 13:00 only"
+      },
+      "medio-dia-extendido": {
+        "name": "Extended Half Day",
+        "note": "Six hours, you choose the window"
+      },
+      "dia-completo": {
+        "name": "Full Day",
+        "note": "No time limit while the park is open"
+      }
+    },
+    "hoursLabel": "Up to",
+    "hoursUnlimited": "No time limit",
+    "includesTitle": "What the pass includes",
+    "includes": [
+      "Access to every standard activity, as many times as you like subject to availability",
+      "Park entrance and collision insurance",
+      "Beach Club facing the Pacific",
+      "Free Kids Club",
+      "Guided ecological trail",
+      "À la carte dining",
+      "Non-alcoholic drinks: water, sodas, coffee, juices and aguas frescas",
+      "Tequila tasting"
+    ],
+    "excludesTitle": "What it doesn't include",
+    "excludes": [
+      "Alcoholic drinks",
+      "Professional photo packages",
+      "Premium vehicles: Can-Am X3, Maverick RC/RS and automatic ATVs"
+    ],
+    "note": "Activities can be combined and repeated subject to daily availability. Each activity's age and safety restrictions still apply.",
+    "choose": "Choose this pass"
+  },
+  "kids": {
+    "eyebrow": "For the kids",
+    "title": "Here, kids don't sit and wait",
+    "subtitle": "We have activities built for them and a free Kids Club for when the parents want their own tour. Nobody sits this one out.",
+    "clubTitle": "Kids Club, free of charge",
+    "clubBody": "A supervised space where they play, watch movies and hang out with other kids while you're on your tour. From 6 months to 12 years.",
+    "clubItems": [
+      "Staff certified in first aid and CPR",
+      "Cameras throughout the space",
+      "Free with any activity you book",
+      "From 6 months to 12 years"
+    ],
+    "activitiesTitle": "Activities for them",
+    "activitiesBody": "These are the ones with a low minimum age or built specifically for kids.",
+    "safetyTitle": "How we look after children",
+    "safetyItems": [
+      {
+        "title": "Gear in their size",
+        "body": "Child-sized helmets and harnesses, not shrunken adult equipment."
+      },
+      {
+        "title": "Assigned instructor",
+        "body": "Kids activities run with one instructor per small group, always in sight."
+      },
+      {
+        "title": "Limited top speed",
+        "body": "The kids machines are factory-limited and the circuit is closed."
+      },
+      {
+        "title": "On-site medical service",
+        "body": "Nurse and ambulance available 24 hours, at no cost if they're ever needed."
+      }
+    ]
+  },
+  "groups": {
+    "eyebrow": "Groups & Events",
+    "title": "Bring the whole team",
+    "subtitle": "Company offsite, incentive trip, bachelor party, birthday or a big family reunion. We build the outing to fit and coordinate it end to end.",
+    "typesTitle": "The groups we host",
+    "types": [
+      {
+        "title": "Companies and team building",
+        "body": "Team-building activities in the desert, with group challenges and recognition at the end."
+      },
+      {
+        "title": "Incentive travel",
+        "body": "Programs for sales groups or award trips, coordinated with your agency or DMC."
+      },
+      {
+        "title": "Bachelor parties and birthdays",
+        "body": "Bachelor and bachelorette parties, birthdays and celebrations. Reserved area and exclusive time slot."
+      },
+      {
+        "title": "Large families and weddings",
+        "body": "An activity for wedding guests or a family reunion, with options for every age."
+      }
+    ],
+    "includesTitle": "What the coordination covers",
+    "includes": [
+      "Custom proposal and quote",
+      "A dedicated coordinator before and during the event",
+      "Transportation for the whole group",
+      "Reserved area and exclusive time slot depending on size",
+      "Options for anyone who'd rather skip the motorized activities",
+      "Group photography and video, quoted separately"
+    ],
+    "ctaTitle": "Tell us about your group",
+    "ctaBody": "Send us the headcount, the approximate date and what you're celebrating. We'll get you a proposal the same day.",
+    "ctaButton": "Request a quote"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "We're from here, and it shows",
+    "lead": "Adrenalina Cabo operates at Playa Migriño, between the Baja desert and the open Pacific. We work with small groups because an adventure lands differently when your guide remembers your name.",
+    "missionTitle": "Our mission",
+    "missionBody": "That everyone who rides with us goes home telling a story they didn't expect. That only happens when the team is well looked after, the safety gear is in order and nobody is in a hurry.",
+    "visionTitle": "Where we're headed",
+    "visionBody": "We want to be the operation people recommend by name, not by price. To grow without losing what sets us apart: small groups, local staff and dealing with us directly.",
+    "valuesTitle": "What we won't compromise on",
+    "values": [
+      {
+        "title": "Safety before anything",
+        "body": "Certified bilingual guides, equipment checked before every departure, and medical service with an ambulance available 24 hours. If conditions aren't safe, we don't ride."
+      },
+      {
+        "title": "Animal welfare",
+        "body": "Our camels and horses live in a sanctuary registered with SEMARNAT, with scheduled rest and weight limits we actually enforce."
+      },
+      {
+        "title": "Local people, local jobs",
+        "body": "The team is from around here. Guides, mechanics, handlers and kitchen staff, all from Los Cabos and La Paz."
+      },
+      {
+        "title": "Pricing without tricks",
+        "body": "Park entrance and insurance are inside the published price. We charge nothing extra when you arrive."
+      }
+    ],
+    "amenitiesTitle": "What you'll find at the park",
+    "amenities": [
+      {
+        "title": "Beach Club",
+        "body": "Facing the Pacific, with shaded seating and table service."
+      },
+      {
+        "title": "Restaurant and bar",
+        "body": "À la carte dining, vegetarian options, coffee and a full bar."
+      },
+      {
+        "title": "Kids Club",
+        "body": "Supervised, free, from 6 months to 12 years."
+      },
+      {
+        "title": "Free lockers",
+        "body": "Leave your bag and valuables while you're out on your activity."
+      },
+      {
+        "title": "Ecological trail",
+        "body": "A guided walk through the flora of the Baja desert."
+      },
+      {
+        "title": "Animal sanctuary",
+        "body": "Registered with SEMARNAT, home to our camels and horses."
+      },
+      {
+        "title": "Professional photography",
+        "body": "Photographers on route; the package is sold separately if you like the shots."
+      },
+      {
+        "title": "Medical service",
+        "body": "On-site nurse and ambulance, 24 hours a day."
+      }
+    ]
+  },
+  "local": {
+    "eyebrow": "Local Rate",
+    "title": "If you live in Baja, this one's for you",
+    "subtitle": "Anyone who lives here shouldn't be paying tourist prices. Show ID with a Baja California Sur address and get the local rate on every activity.",
+    "howTitle": "How it works",
+    "how": [
+      "Message us on WhatsApp and mention you're local.",
+      "Send a photo of your ID showing a BCS address.",
+      "We confirm your rate and hold your spot.",
+      "Bring the same ID when you arrive."
+    ],
+    "note": "The local rate applies Monday to Friday, subject to availability, and can't be combined with other promotions. Valid for the cardholder and up to three companions.",
+    "cta": "Request the local rate"
+  },
+  "partners": {
+    "eyebrow": "Trade partners",
+    "title": "Agencies, hotels and concierges",
+    "subtitle": "If you sell experiences in Los Cabos, let's work together. We offer net rates for agencies, DMCs and hotel staff, with same-day response.",
+    "benefitsTitle": "What you get",
+    "benefits": [
+      {
+        "title": "Net rates",
+        "body": "Wholesale pricing so you set your own margin, with no volume minimum to start."
+      },
+      {
+        "title": "Real-time availability",
+        "body": "We confirm spots over WhatsApp the same day, instead of waiting on an email thread."
+      },
+      {
+        "title": "Sales material",
+        "body": "Photos, video and one-pagers for every activity with prices and restrictions, ready to send your client."
+      },
+      {
+        "title": "One direct contact",
+        "body": "A single person handles your account, not a shared inbox. You know exactly who to call when something goes sideways."
+      }
+    ],
+    "ctaTitle": "Let's get started",
+    "ctaBody": "Send us your agency or hotel name and the volume you handle. We'll share the net rate and open your account.",
+    "ctaButton": "Request net rates"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "subtitle": "Message us on WhatsApp to book quickly, or call if you'd rather. We answer every day from 8:00 to 18:00.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappBody": "The fastest route. We reply within minutes during operating hours.",
+    "phoneTitle": "Phone",
+    "phoneBody": "If you'd rather speak to someone directly.",
+    "emailTitle": "Email",
+    "emailBody": "For group quotes, invoicing, or anything that needs documents attached.",
+    "locationTitle": "Where we are",
+    "locationBody": "Carretera Federal 19 km 100, Playa Migriño, Los Cabos, BCS. About 30 minutes from downtown Cabo San Lucas.",
+    "hoursTitle": "Hours",
+    "hoursBody": "Every day from 8:00 to 18:00. Departures at 9:00, 10:00, 12:00, 13:00, 15:00 and 16:00.",
+    "groupTitle": "Coming with a group?",
+    "groupBody": "For groups over ten people, companies or events, we have a dedicated team that puts the full proposal together.",
+    "groupCta": "See Groups & Events",
+    "mapsCta": "Open in Google Maps"
+  },
+  "why": {
+    "eyebrow": "Adrenalina Cabo",
+    "title": "Why choose us?",
+    "items": [
+      {
+        "title": "Variety of tours",
+        "body": "ATVs, Can-Am UTVs, camels, horses, Sky Bikes, bikes and combos. There's something for every age and every level."
+      },
+      {
+        "title": "Safety",
+        "body": "Safety is our priority. We have expert guides and vehicles in excellent condition to ensure a safe and enjoyable experience."
+      },
+      {
+        "title": "Quality service",
+        "body": "Bilingual guides, round-trip transportation from your hotel, food included and on-site medical service 24 hours a day."
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Testimonials",
+    "title": "Why do our clients love us?",
+    "items": [
+      {
+        "text": "We booked the ATV tour and it was the highlight of the trip. Our guide walked us through everything calmly, the scenery is unreal, and we never felt rushed.",
+        "author": "Jessica M.",
+        "origin": "Denver, CO",
+        "guide": "Guide: Ramón"
+      },
+      {
+        "text": "We came with two kids and thought it would be complicated. The UTV was perfect and the camels blew their minds. Zero hidden costs, everything exactly as promised.",
+        "author": "Carlos R.",
+        "origin": "Guadalajara, MX",
+        "guide": "Guide: Yuli"
+      },
+      {
+        "text": "We arrived on a cruise with a tight window and they still fit us in. Picked us up on time and got us back to the ship with room to spare. Highly recommend.",
+        "author": "Mark T.",
+        "origin": "Vancouver, CA",
+        "guide": "Guide: Beto"
+      }
+    ],
+    "chips": [
+      "Family tours",
+      "Kid friendly",
+      "Adventure",
+      "Full of adrenaline",
+      "Combos",
+      "Much more!"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions?",
+    "title": "Frequently asked Questions",
+    "items": [
+      {
+        "q": "What time do tours depart?",
+        "a": "We run fixed departures at 9:00, 10:00, 12:00, 13:00, 15:00 and 16:00. In high season we add 8:00 and 17:00. We confirm your time when you book."
+      },
+      {
+        "q": "Where are you and how do I get there?",
+        "a": "We're at Playa Migriño, Carretera Federal 19 km 100, about 30 minutes from downtown Cabo San Lucas. Round-trip transportation from your hotel is already included."
+      },
+      {
+        "q": "What's included in the price and what's paid separately?",
+        "a": "The tour price includes round-trip transportation from your hotel, safety equipment, a bilingual guide, the ecological hike, desert safari, lockers, water, tacos and quesadillas, and a tequila tasting. Paid separately: the park entrance fee ($25 USD per person, mandatory on every tour) and, if you want them, vehicle protection and the photo package."
+      },
+      {
+        "q": "What is the minimum age?",
+        "a": "To drive an ATV or UTV you must be 16 with photo ID. As a passenger, 7 years on an ATV and 5 on a UTV. Mini RZR from age 10 to drive. Camels from 5, horses from 6, and Sky Bike from 8."
+      },
+      {
+        "q": "Are there weight or height limits?",
+        "a": "Yes. ATV and UTV: 125 kg maximum, minimum height 1.20 m. Horses: 110 kg maximum. Sky Bike: 120 kg maximum and 1.20 m minimum height."
+      },
+      {
+        "q": "Who cannot participate?",
+        "a": "Pregnant guests, anyone with back or neck problems, recent surgeries, or under the influence of alcohol or drugs. Your safety comes first."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "Comfortable clothes you don't mind getting dusty, closed shoes, sunscreen, a light sweater and a hands-free camera. We provide the helmet and goggles, and lockers are free."
+      },
+      {
+        "q": "Can I swim at the beach?",
+        "a": "No. Migriño is open Pacific with very strong currents and is not safe for swimming. The beach is for riding, and that rule isn't negotiable."
+      },
+      {
+        "q": "Is there food at the park?",
+        "a": "Yes. We have a restaurant with à la carte dining, vegetarian options, coffee and a bar. With the Day Pass, food is included."
+      },
+      {
+        "q": "Can I cancel or change my booking?",
+        "a": "Yes, with no penalty up to 48 hours before your tour. Under 48 hours, or a no-show, is non-refundable. If we cancel for weather, we reschedule or refund you in full."
+      },
+      {
+        "q": "How can I pay?",
+        "a": "We accept Visa, Mastercard and American Express online. You can also pay a deposit now and the balance on arrival."
+      },
+      {
+        "q": "Is there a discount for locals?",
+        "a": "Yes. If you live in Baja California Sur, show ID with your address and get the local rate. Message us on WhatsApp and we'll confirm it."
+      }
+    ],
+    "seeMore": "See more"
+  },
+  "payment": {
+    "title": "Secure payment",
+    "body": "We accept Visa, Mastercard and American Express."
+  },
+  "cta": {
+    "title": "Ready for your Los Cabos adventure?",
+    "subtitle": "Reserve your spot in under two minutes. Any questions, message us on WhatsApp and we'll get right back to you.",
+    "primary": "See activities",
+    "secondary": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Adventure tours at Playa Migriño, Los Cabos, Baja California Sur.",
+    "explore": "Explore",
+    "help": "Help",
+    "contact": "Contact",
+    "terms": "Terms and conditions",
+    "privacy": "Privacy policy",
+    "cancellation": "Cancellation policy",
+    "address": "Carretera Federal 19 km 100, Playa Migriño, Los Cabos, BCS",
+    "hours": "Every day, 8:00 to 18:00",
+    "maps": "View on Google Maps",
+    "rights": "All rights reserved."
+  },
+  "wip": {
+    "label": "Phase 1",
+    "text": "Site under construction. Photos and prices are placeholders — real ones pending."
+  },
+  "categories": {
+    "atv": {
+      "name": "ATVs",
+      "tagline": "The Migriño classic, on your own machine",
+      "intro": "Two routes, one idea: you do the driving. The ATV is the most direct way to see Migriño — desert, canyon, the wide riverbed and out onto the Pacific beach — and the one that works best if you've never been off-road.\n\nWe ride with a guide up front setting the pace and another closing the group, so nobody gets left behind or feels rushed.",
+      "note": "Drivers from 16 with photo ID. Passengers from 7."
+    },
+    "utv": {
+      "name": "UTV & Can-Am",
+      "tagline": "Wheel, belts and roll cage: from family-friendly to extreme",
+      "intro": "Four machines for four different riders. The Side by Side for couples or riding with a child, the Can-Am X3 when you want real speed, the 195-horsepower Maverick for experienced drivers, and the Mini RZR so kids can drive their own.\n\nAll of them have a steering wheel, two belted seats and a roll cage. More stable and more comfortable than an ATV.",
+      "note": "The second seat costs nothing extra on any machine in this category."
+    },
+    "combo": {
+      "name": "Combos",
+      "tagline": "Two or three activities in a single outing",
+      "intro": "Instead of coming back a second day and paying for two transfers, you do an hour of each activity in one outing. The most requested pairing is ATV plus camel, but you build your own.\n\nIt works out considerably cheaper than booking separately, and since everything happens in one place you lose no time to transfers. It's the favorite among cruise passengers.",
+      "note": "The Balandra Combo is different: a full day with Balandra Beach and La Paz."
+    },
+    "bike": {
+      "name": "Bikes",
+      "tagline": "The desert without an engine, in silence",
+      "intro": "Two options depending on how hard you want to work: the electric bike, which handles the climbs for you, and the mountain bike, for anyone who actually wants to pedal.\n\nSame desert, riverbed and beach route as the motorized tours, but hearing the desert instead of an engine. It's the cheapest way to see Migriño and the best for spotting wildlife.",
+      "note": "From age 12. It's also the most affordable category in the catalogue."
+    },
+    "camel": {
+      "name": "Camel Ride",
+      "tagline": "A guided walk through desert and beach, from age 5",
+      "intro": "Our camels live in a sanctuary registered with SEMARNAT and walk at their own pace, always with a handler on foot. This isn't a speed tour: it's about the landscape, the photos and time with the animals.\n\nIt's what works best with small children and grandparents, and easily what generates the most photos from the trip.",
+      "note": "From age 5. No previous experience needed."
+    },
+    "horse": {
+      "name": "Horseback Ride",
+      "tagline": "An easy trot facing the Pacific waves",
+      "intro": "Gentle horses, a guide beside you the whole way, and a route that runs from the desert straight to the shoreline. You don't need to know how to ride: we set the pace to the group.\n\nIt's the calmest tour we run, and by far the best one at sunset.",
+      "note": "From age 6, maximum weight 110 kg."
+    },
+    "skybike": {
+      "name": "Sky Bikes",
+      "tagline": "850 metres suspended above the canyon",
+      "intro": "A fixed bicycle on a cable strung from one side of the canyon to the other. You sit and pedal at your own pace, in a double harness with an independent safety line.\n\nThere's no free fall and no speed: it's height and views. That's why it works for anyone who wants the scenery without the adrenaline of a traditional zipline.",
+      "note": "From age 8, minimum height 1.20 m and maximum weight 120 kg."
+    }
+  },
+  "promoSlider": [
+    {
+      "eyebrow": "Playa Migriño",
+      "title": "The leading adventure park in Los Cabos",
+      "body": "ATVs, UTVs, Sky Bike, camels and horses in one place, 45 minutes from Cabo San Lucas.",
+      "cta": "See activities",
+      "href": "/tours",
+      "photo": "motor"
+    },
+    {
+      "eyebrow": "Best seller",
+      "title": "2-in-1 Combo: two activities, one outing",
+      "body": "An hour of each, with one transfer and one entrance. The favorite among cruise passengers.",
+      "cta": "See combos",
+      "href": "/actividades/combo",
+      "photo": "mar"
+    },
+    {
+      "eyebrow": "New",
+      "title": "3-in-1 Combo: see the whole park",
+      "body": "Motor, animals and heights in the same morning. Three hours of riding, far cheaper than booking separately.",
+      "cta": "See the 3-in-1",
+      "href": "/tours/combo-3x1",
+      "photo": "dunas"
+    },
+    {
+      "eyebrow": "Heights",
+      "title": "Sky Bike: 850 metres above the canyon",
+      "body": "You pedal suspended, in a double harness with an independent safety line. From age 8.",
+      "cta": "See Sky Bike",
+      "href": "/tours/sky-bike",
+      "photo": "canon"
+    }
+  ],
+  "promos": {
+    "eyebrow": "Buy now and save!",
+    "title": "Promotions",
+    "subtitle": "This month's active offers. All include round-trip transportation, food and safety equipment. The park entrance fee is paid separately.",
+    "items": [
+      {
+        "tag": "Save $25",
+        "title": "2-in-1 Combo",
+        "body": "Two activities of your choice in a single two-hour outing.",
+        "price": 100,
+        "before": 125,
+        "href": "/tours/combo-2x1",
+        "photo": "mar"
+      },
+      {
+        "tag": "Save $50",
+        "title": "3-in-1 Combo",
+        "body": "Three different activities across three hours of riding.",
+        "price": 125,
+        "before": 175,
+        "href": "/tours/combo-3x1",
+        "photo": "dunas"
+      },
+      {
+        "tag": "Save $60",
+        "title": "Full Day Pass",
+        "body": "Open access to the activities, Beach Club and dining.",
+        "price": 239,
+        "before": 299,
+        "href": "/pase-de-dia",
+        "photo": "desierto"
+      },
+      {
+        "tag": "Save $35",
+        "title": "2-in-1 Combo Premium",
+        "body": "Same format, built around the high-end machines.",
+        "price": 140,
+        "before": 175,
+        "href": "/tours/combo-2x1-premium",
+        "photo": "canon"
+      }
+    ]
+  },
+  "welcome": {
+    "eyebrow": "Welcome to Adrenalina Cabo",
+    "title": "Feel the adrenaline, feel Adrenalina Cabo!",
+    "body": "We are the leading outdoor experience park in Los Cabos, built on safety, quality and service.",
+    "claimTitle": "850 metres of aerial route",
+    "claimBody": "The Sky Bike crosses the canyon side to side with a double harness and an independent safety line.",
+    "cta": "See more",
+    "claim": "Guinness World Record holders for the world's longest Sky Bike zipline"
+  },
+  "tabs": {
+    "reserve": "RESERVE",
+    "included": "INCLUDED",
+    "extra": "EXTRA FEES",
+    "before": "BEFORE YOU RESERVE",
+    "recommend": "RECOMMENDATIONS",
+    "safety": "SAFETY",
+    "adultPrice": "Adult price",
+    "childPrice": "Child price",
+    "perPerson": "per person",
+    "childNote": "Child rate applies to children up to 11 years old. From age 12 and up, the adult rate applies.",
+    "parkFee": "Park entrance fee",
+    "parkFeeNote": "Mandatory, per person. Applies to all tours and is NOT included in the tour price.",
+    "includedTitle": "Everything you need for a full day of adventure",
+    "extraTitle": "Optional services and additional charges",
+    "beforeTitle": "To ensure your safety and enjoyment",
+    "recommendTitle": "What we recommend bringing",
+    "safetyTitle": "Your safety and the quality of your experience are our priority",
+    "cancelTitle": "CANCELLATION POLICY",
+    "infoTitle": "INFORMATION",
+    "infoDuration": "Duration",
+    "infoMinAge": "Minimum age",
+    "infoTransport": "Transportation",
+    "infoTransportValue": "Round trip included",
+    "infoDepartures": "Departures",
+    "payTitle": "PAYMENT METHODS",
+    "payBody": "We accept Visa, Mastercard and American Express.",
+    "admission": "Due to company policy and safety reasons, we reserve the right of admission.",
+    "total": "Total"
+  },
+  "included": [
+    "Tequila tasting at our museum",
+    "Ecological hike",
+    "Desert safari",
+    "Safety equipment",
+    "Round-trip transportation",
+    "Kids Club (upon request)",
+    "Lockers",
+    "Fresh water",
+    "Tacos & quesadillas (beef, pastor, chicken)"
+  ],
+  "extraFees": [
+    "Mandatory park entrance fee: $25 USD per person, applicable to all tours.",
+    "Photography package (optional).",
+    "Vehicle protection (optional): if you choose not to take it, a credit card is required for a temporary hold.",
+    "Private tour (optional): exclusive experience for your group, with access to phones and cameras.",
+    "Personalized guide (optional)."
+  ],
+  "recommendations": [
+    "Comfortable or athletic clothing",
+    "Closed-toe shoes",
+    "Sunscreen",
+    "An additional payment method",
+    "Sweater in winter"
+  ],
+  "safety": [
+    "The use of cell phones, cameras and electronic devices is not permitted during the activity. GoPro-type hands-free cameras are permitted.",
+    "Our experiences take place outdoors and require a high level of interaction. This measure protects your safety and that of all participants, and lets you enjoy the activity without distractions.",
+    "On the private tour, phones and cameras are permitted, as it does not affect the safety or experience of the rest of the group.",
+    "Ocean conditions along the property are extremely dangerous and not suitable for swimming. The area has strong currents, powerful waves and hazardous underwater conditions.",
+    "While beaches in Mexico are public, entering the ocean is not permitted at any time during your visit or any activity.",
+    "Anyone entering the ocean does so entirely at their own risk, and releases the company, its owners, employees, affiliates and partners from any liability for injury, accident, loss or death.",
+    "Enforcement policy: any guest who enters the ocean will have their tour terminated immediately without refund, transportation back is arranged at staff discretion, and re-entry into any activity will not be permitted."
+  ],
+  "cancellation": [
+    "More than 48 hours before the activity (full payments): refund possible, less any applicable administrative fees.",
+    "Less than 48 hours before, late arrivals or no-shows: no refunds or changes.",
+    "Weather or operational issues: full refund or date change without penalty, subject to availability.",
+    "Changes after an applied promotion: a 20% penalty applies."
+  ],
+  "cats": {
+    "title": "Categories"
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "Here's where we are",
+    "body": "Carretera Federal 19 km 100, Migriño, 23597 Cabo San Lucas, B.C.S. About 30 minutes from downtown Cabo San Lucas.",
+    "cta": "View on Google Maps"
+  },
+  "closing": {
+    "eyebrow": "Extraordinary experiences!",
+    "title": "Reserve your tour",
+    "body": "Ready for adventure?",
+    "cta": "See tours"
+  }
+}

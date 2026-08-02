@@ -1,0 +1,693 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "pass": "Park Pass",
+    "tours": "Actividades",
+    "combos": "Combos",
+    "kids": "Para Niños",
+    "groups": "Grupos y Eventos",
+    "about": "Nosotros",
+    "faq": "Preguntas",
+    "contact": "Contacto",
+    "local": "Tarifa Local",
+    "partners": "Socios",
+    "book": "Reservar",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "badge": "Playa Migriño · Los Cabos",
+    "title": "Vive la adrenalina de Los Cabos",
+    "subtitle": "Cuatrimotos, UTV Can-Am, camellos, caballos y tirolesa en el desierto y las playas de Migriño. Transporte redondo, guías bilingües y comida incluidos.",
+    "ctaPrimary": "Ver actividades",
+    "ctaSecondary": "Escríbenos por WhatsApp",
+    "stat1": "Clientes felices",
+    "stat2": "Calificación promedio",
+    "stat3": "Salidas al día"
+  },
+  "strip": {
+    "transport": "Transporte redondo incluido",
+    "guides": "Guías bilingües certificados",
+    "insurance": "Comida y bebida incluidas",
+    "medical": "Servicio médico 24/7"
+  },
+  "steps": {
+    "eyebrow": "3 pasos sencillos",
+    "title": "Cómo reservar",
+    "items": [
+      {
+        "n": "01",
+        "title": "Explora los tours",
+        "body": "Haz clic para ver las opciones disponibles."
+      },
+      {
+        "n": "02",
+        "title": "Elige una opción",
+        "body": "Elige tu tour y tu horario."
+      },
+      {
+        "n": "03",
+        "title": "Paga como prefieras",
+        "body": "Aceptamos tarjetas de débito y crédito, incluidas Amex, Visa y Mastercard."
+      }
+    ]
+  },
+  "tours": {
+    "eyebrow": "Nuestras actividades",
+    "title": "Elige tu aventura",
+    "subtitle": "Precio por persona en dólares. La entrada al parque ($25 USD por persona) se cobra aparte y es obligatoria en todos los tours.",
+    "from": "Desde",
+    "perPerson": "por persona",
+    "passenger": "Segundo asiento",
+    "included": "Incluido",
+    "duration": "Duración",
+    "minAge": "Edad mín.",
+    "years": "años",
+    "hours": "horas",
+    "hoursShort": "h",
+    "book": "Reservar",
+    "details": "Ver detalle",
+    "reviews": "reseñas",
+    "seeAll": "Ver todas las actividades",
+    "badgePopular": "Más vendido",
+    "badgeNuevo": "Nuevo",
+    "badgeFamiliar": "Familiar",
+    "badgePremium": "Premium",
+    "catAtv": "Cuatrimotos",
+    "catUtv": "UTV Can-Am",
+    "catCombo": "Combos",
+    "catSkybike": "Sky Bikes",
+    "catCamel": "Paseo en Camello",
+    "catHorse": "Cabalgata",
+    "catBike": "Bicicletas"
+  },
+  "detail": {
+    "back": "Todas las actividades",
+    "overview": "La experiencia",
+    "highlights": "Lo que más gusta",
+    "itinerary": "Cómo es el recorrido",
+    "includes": "Qué incluye",
+    "excludes": "No incluye",
+    "requirements": "Requisitos y restricciones",
+    "departures": "Horarios de salida",
+    "departuresNote": "En temporada alta agregamos las 8:00 y las 17:00.",
+    "reqAgeDriver": "Edad mínima para manejar",
+    "reqAgePassenger": "Edad mínima de pasajero",
+    "reqHeight": "Estatura mínima",
+    "reqWeight": "Peso máximo",
+    "reqGroup": "Grupo máximo",
+    "reqPeople": "personas",
+    "reqId": "Identificación oficial obligatoria para conducir.",
+    "warningTitle": "Antes de reservar, lee esto",
+    "warningBody": "No pueden participar personas embarazadas, con problemas de espalda o cuello, con cirugías recientes, o bajo efectos del alcohol o alguna droga. En Playa Migriño no se puede nadar: es Pacífico abierto con corrientes muy fuertes.",
+    "bookTitle": "Aparta tu lugar",
+    "bookNote": "Confirmación inmediata por WhatsApp. Cancela gratis hasta 48 horas antes.",
+    "bookCta": "Reservar por WhatsApp",
+    "related": "Otras actividades que te pueden gustar",
+    "rated": "de calificación en"
+  },
+  "pass": {
+    "eyebrow": "Pase de Día",
+    "title": "Un solo pase, todas las actividades",
+    "subtitle": "En vez de reservar un tour, compras acceso al parque y decides sobre la marcha: cuatrimoto en la mañana, camello después de comer, Sky Bike antes de irte. Repites las que quieras según disponibilidad.",
+    "cardEyebrow": "Pase de Día",
+    "cardTitle": "¿Vas a estar todo el día? Sale mejor el pase",
+    "cardBody": "Acceso libre a las actividades, Beach Club, Kids Club, sendero ecológico y comida a la carta. Tú decides el orden y cuántas veces.",
+    "cardCta": "Ver el Pase de Día",
+    "tiers": {
+      "medio-dia": {
+        "name": "Medio Día",
+        "note": "Solo salidas de 9:00 a 13:00"
+      },
+      "medio-dia-extendido": {
+        "name": "Medio Día Extendido",
+        "note": "Seis horas, el horario lo eliges tú"
+      },
+      "dia-completo": {
+        "name": "Día Completo",
+        "note": "Sin límite de horario mientras el parque esté abierto"
+      }
+    },
+    "hoursLabel": "Hasta",
+    "hoursUnlimited": "Sin límite de tiempo",
+    "includesTitle": "Qué incluye el pase",
+    "includes": [
+      "Acceso a todas las actividades estándar, las veces que quieras según disponibilidad",
+      "Entrada al parque y seguro de colisión",
+      "Beach Club frente al Pacífico",
+      "Kids Club sin costo",
+      "Sendero ecológico guiado",
+      "Comida a la carta",
+      "Bebidas sin alcohol: agua, refrescos, café, jugos y aguas frescas",
+      "Cata de tequila"
+    ],
+    "excludesTitle": "Qué no incluye",
+    "excludes": [
+      "Bebidas alcohólicas",
+      "Paquetes de fotografía profesional",
+      "Vehículos premium: Can-Am X3, Maverick RC/RS y cuatrimotos automáticas"
+    ],
+    "note": "Las actividades se combinan y repiten sujeto a disponibilidad del día. Las edades y restricciones de cada actividad se siguen aplicando igual.",
+    "choose": "Elegir este pase"
+  },
+  "kids": {
+    "eyebrow": "Para los niños",
+    "title": "Aquí los niños no esperan sentados",
+    "subtitle": "Tenemos actividades pensadas para ellos y un Kids Club sin costo para cuando los papás quieren su propio tour. Nadie se queda fuera.",
+    "clubTitle": "Kids Club, sin costo",
+    "clubBody": "Un espacio supervisado donde juegan, ven películas y conviven con otros niños mientras ustedes hacen su tour. Desde 6 meses hasta 12 años.",
+    "clubItems": [
+      "Personal certificado en primeros auxilios y RCP",
+      "Cámaras en todo el espacio",
+      "Sin costo al reservar cualquier actividad",
+      "Desde 6 meses hasta 12 años"
+    ],
+    "activitiesTitle": "Actividades para ellos",
+    "activitiesBody": "Estas son las que tienen edad mínima baja o están hechas específicamente para niños.",
+    "safetyTitle": "Cómo cuidamos a los niños",
+    "safetyItems": [
+      {
+        "title": "Equipo a su medida",
+        "body": "Cascos y arneses de talla infantil, no versiones chicas de equipo de adulto."
+      },
+      {
+        "title": "Instructor asignado",
+        "body": "En las actividades infantiles hay un instructor por grupo chico, siempre a la vista."
+      },
+      {
+        "title": "Velocidad limitada",
+        "body": "Las unidades infantiles están topadas de fábrica y el circuito es cerrado."
+      },
+      {
+        "title": "Servicio médico en sitio",
+        "body": "Enfermería y ambulancia disponibles las 24 horas, sin costo si se necesitan."
+      }
+    ]
+  },
+  "groups": {
+    "eyebrow": "Grupos y Eventos",
+    "title": "Traemos al equipo completo",
+    "subtitle": "Integración de empresa, viaje de incentivo, despedida, cumpleaños o reunión familiar grande. Armamos la salida a la medida y la coordinamos de principio a fin.",
+    "typesTitle": "Qué tipo de grupos atendemos",
+    "types": [
+      {
+        "title": "Empresas e integración",
+        "body": "Actividades de team building en el desierto, con dinámicas por equipos y reconocimiento al final."
+      },
+      {
+        "title": "Viajes de incentivo",
+        "body": "Programas para grupos de ventas o premiación, con logística coordinada con tu agencia o DMC."
+      },
+      {
+        "title": "Despedidas y cumpleaños",
+        "body": "Despedidas de soltero y soltera, cumpleaños y celebraciones. Zona reservada y horario exclusivo."
+      },
+      {
+        "title": "Familias grandes y bodas",
+        "body": "Actividad para los invitados de una boda o una reunión familiar, con opciones para todas las edades."
+      }
+    ],
+    "includesTitle": "Qué incluye la coordinación",
+    "includes": [
+      "Propuesta y cotización personalizada",
+      "Un coordinador dedicado antes y durante el evento",
+      "Transporte para todo el grupo",
+      "Zona reservada y horario exclusivo según el tamaño",
+      "Opciones para quienes no quieran actividad motorizada",
+      "Fotografía y video del grupo bajo cotización"
+    ],
+    "ctaTitle": "Cuéntanos de tu grupo",
+    "ctaBody": "Escríbenos con el número de personas, la fecha aproximada y qué quieren celebrar. Te mandamos una propuesta el mismo día.",
+    "ctaButton": "Pedir cotización"
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Somos de aquí, y se nota",
+    "lead": "Adrenalina Cabo opera en Playa Migriño, entre el desierto de Baja y el Pacífico abierto. Trabajamos con grupos chicos porque creemos que una aventura se disfruta distinto cuando el guía se acuerda de tu nombre.",
+    "missionTitle": "Nuestra misión",
+    "missionBody": "Que cada persona que sale con nosotros regrese contando algo que no esperaba. Eso solo pasa cuando el equipo está bien, el equipo de seguridad está en orden y nadie va con prisa.",
+    "visionTitle": "A dónde vamos",
+    "visionBody": "Queremos ser la operación que la gente recomienda por nombre, no por precio. Crecer sin perder lo que nos distingue: grupos chicos, gente local y trato directo.",
+    "valuesTitle": "En qué no cedemos",
+    "values": [
+      {
+        "title": "Seguridad antes que todo",
+        "body": "Guías bilingües certificados, equipo revisado antes de cada salida y servicio médico con ambulancia disponible las 24 horas. Si las condiciones no son seguras, no salimos."
+      },
+      {
+        "title": "Bienestar animal",
+        "body": "Nuestros camellos y caballos viven en un santuario registrado ante SEMARNAT, con descansos programados y límites de peso que sí respetamos."
+      },
+      {
+        "title": "Gente local, empleo local",
+        "body": "El equipo es de la zona. Guías, mecánicos, cuidadores y cocina: todos de Los Cabos y La Paz."
+      },
+      {
+        "title": "Precios sin trampa",
+        "body": "La entrada al parque y el seguro van incluidos en el precio publicado. No cobramos nada extra al llegar."
+      }
+    ],
+    "amenitiesTitle": "Lo que vas a encontrar en el parque",
+    "amenities": [
+      {
+        "title": "Beach Club",
+        "body": "Frente al Pacífico, con área de sombra y servicio a la mesa."
+      },
+      {
+        "title": "Restaurante y bar",
+        "body": "Comida a la carta, opciones vegetarianas y bar con coctelería."
+      },
+      {
+        "title": "Kids Club",
+        "body": "Supervisado, sin costo, desde 6 meses hasta 12 años."
+      },
+      {
+        "title": "Lockers sin costo",
+        "body": "Para que dejes mochilas y cosas de valor mientras haces tu actividad."
+      },
+      {
+        "title": "Sendero ecológico",
+        "body": "Recorrido guiado por la flora del desierto de Baja."
+      },
+      {
+        "title": "Santuario animal",
+        "body": "Registrado ante SEMARNAT, donde viven los camellos y caballos."
+      },
+      {
+        "title": "Fotografía profesional",
+        "body": "Fotógrafos en ruta; el paquete se compra aparte si te gustaron."
+      },
+      {
+        "title": "Servicio médico",
+        "body": "Enfermería y ambulancia en sitio, las 24 horas."
+      }
+    ]
+  },
+  "local": {
+    "eyebrow": "Tarifa Local",
+    "title": "Si vives en Baja, esto es para ti",
+    "subtitle": "Sabemos que quien vive aquí no debería pagar precio de turista. Presenta tu identificación con domicilio en Baja California Sur y accede a tarifa local en todas las actividades.",
+    "howTitle": "Cómo funciona",
+    "how": [
+      "Escríbenos por WhatsApp y menciona que eres local.",
+      "Manda foto de tu identificación con domicilio en BCS.",
+      "Te confirmamos tu tarifa y apartamos tu lugar.",
+      "Presentas la misma identificación al llegar."
+    ],
+    "note": "La tarifa local aplica de lunes a viernes, sujeta a disponibilidad, y no es acumulable con otras promociones. Válida para el titular y hasta tres acompañantes.",
+    "cta": "Pedir tarifa local"
+  },
+  "partners": {
+    "eyebrow": "Socios comerciales",
+    "title": "Agencias, hoteles y concierges",
+    "subtitle": "Si vendes experiencias en Los Cabos, trabajemos juntos. Tenemos tarifa neta para agencias, DMC y personal de hotel, y respuesta el mismo día.",
+    "benefitsTitle": "Qué te damos",
+    "benefits": [
+      {
+        "title": "Tarifa neta",
+        "body": "Precio mayorista para que armes tu propio margen, sin mínimos de volumen para empezar."
+      },
+      {
+        "title": "Disponibilidad en tiempo real",
+        "body": "Te confirmamos lugares por WhatsApp el mismo día, sin esperar a que te contesten un correo."
+      },
+      {
+        "title": "Material para vender",
+        "body": "Fotos, videos y fichas de cada actividad con precios y restricciones, listas para mandar a tu cliente."
+      },
+      {
+        "title": "Un contacto directo",
+        "body": "Una sola persona te atiende, no un buzón general. Sabes con quién hablar cuando algo se complica."
+      }
+    ],
+    "ctaTitle": "Empecemos",
+    "ctaBody": "Mándanos el nombre de tu agencia u hotel y con qué volumen manejas. Te compartimos la tarifa neta y damos de alta tu cuenta.",
+    "ctaButton": "Solicitar tarifa neta"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos",
+    "subtitle": "Escríbenos por WhatsApp para reservar rápido, o llámanos si prefieres. Contestamos todos los días de 8:00 a 18:00.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappBody": "La vía más rápida. Te contestamos en minutos durante horario de operación.",
+    "phoneTitle": "Teléfono",
+    "phoneBody": "Si prefieres hablar con alguien directamente.",
+    "emailTitle": "Correo",
+    "emailBody": "Para cotizaciones de grupo, facturación o temas que requieran documentos.",
+    "locationTitle": "Dónde estamos",
+    "locationBody": "Carretera Federal 19 km 100, Playa Migriño, Los Cabos, BCS. A unos 30 minutos del centro de Cabo San Lucas.",
+    "hoursTitle": "Horario",
+    "hoursBody": "Todos los días de 8:00 a 18:00. Salidas a las 9:00, 10:00, 12:00, 13:00, 15:00 y 16:00.",
+    "groupTitle": "¿Vienes con grupo?",
+    "groupBody": "Para grupos de más de diez personas, empresas o eventos, tenemos un equipo dedicado que arma la propuesta completa.",
+    "groupCta": "Ver Grupos y Eventos",
+    "mapsCta": "Abrir en Google Maps"
+  },
+  "why": {
+    "eyebrow": "Adrenalina Cabo",
+    "title": "¿Por qué elegirnos?",
+    "items": [
+      {
+        "title": "Variedad de tours",
+        "body": "Cuatrimotos, UTV Can-Am, camellos, caballos, Sky Bikes, bicicletas y combos. Hay algo para cada edad y cada nivel."
+      },
+      {
+        "title": "Seguridad",
+        "body": "La seguridad es la prioridad. Tenemos guías expertos y vehículos en excelente estado para que la experiencia sea segura y disfrutable."
+      },
+      {
+        "title": "Servicio de calidad",
+        "body": "Guías bilingües, transporte redondo desde tu hotel, comida incluida y servicio médico en sitio las 24 horas."
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Testimonios",
+    "title": "¿Por qué nos quieren nuestros clientes?",
+    "items": [
+      {
+        "text": "Reservamos el tour de cuatrimotos y fue lo mejor del viaje. Nuestro guía nos explicó todo con calma, el paisaje es una locura y nunca sentimos que nos apuraran.",
+        "author": "Jessica M.",
+        "origin": "Denver, CO",
+        "guide": "Guía: Ramón"
+      },
+      {
+        "text": "Íbamos con dos niños y pensamos que sería complicado. El UTV fue perfecto y lo del camello los volvió locos. Cero costos escondidos, todo salió como nos dijeron.",
+        "author": "Carlos R.",
+        "origin": "Guadalajara, MX",
+        "guide": "Guía: Yuli"
+      },
+      {
+        "text": "Llegamos en crucero con poco tiempo y aun así nos acomodaron. Nos recogieron puntuales y volvimos al barco con margen. Súper recomendables.",
+        "author": "Mark T.",
+        "origin": "Vancouver, CA",
+        "guide": "Guía: Beto"
+      }
+    ],
+    "chips": [
+      "Tours familiares",
+      "Apto para niños",
+      "Aventura",
+      "Pura adrenalina",
+      "Combos",
+      "¡Y mucho más!"
+    ]
+  },
+  "faq": {
+    "eyebrow": "¿Preguntas?",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿A qué hora salen los tours?",
+        "a": "Tenemos salidas fijas a las 9:00, 10:00, 12:00, 13:00, 15:00 y 16:00. En temporada alta agregamos las 8:00 y las 17:00. Te confirmamos tu horario al reservar."
+      },
+      {
+        "q": "¿Dónde están y cómo llego?",
+        "a": "Estamos en Playa Migriño, Carretera Federal 19 km 100, a unos 30 minutos del centro de Cabo San Lucas. El transporte redondo desde tu hotel ya está incluido en el precio."
+      },
+      {
+        "q": "¿Qué incluye el precio y qué se paga aparte?",
+        "a": "El precio del tour incluye transporte redondo desde tu hotel, equipo de seguridad, guía bilingüe, caminata ecológica, safari por el desierto, lockers, agua, tacos y quesadillas, y cata de tequila. Se paga aparte la entrada al parque ($25 USD por persona, obligatoria en todos los tours) y, si la quieres, la protección del vehículo y el paquete de fotos."
+      },
+      {
+        "q": "¿Cuál es la edad mínima?",
+        "a": "Para manejar cuatrimoto o UTV son 16 años con identificación. De pasajero, 7 años en cuatrimoto y 5 en UTV. Mini RZR desde 10 años para manejar. Camellos desde 5, caballos desde 6 y Sky Bike desde 8."
+      },
+      {
+        "q": "¿Hay límite de peso o estatura?",
+        "a": "Sí. Cuatrimoto y UTV: máximo 125 kg y estatura mínima 1.20 m. Caballos: máximo 110 kg. Sky Bike: máximo 120 kg y 1.20 m de estatura."
+      },
+      {
+        "q": "¿Quién no puede participar?",
+        "a": "Personas embarazadas, con problemas de espalda o cuello, con cirugías recientes, o bajo efectos del alcohol o alguna droga. Tu seguridad va primero."
+      },
+      {
+        "q": "¿Qué debo llevar?",
+        "a": "Ropa cómoda que se pueda ensuciar, zapato cerrado, bloqueador solar, un suéter ligero y cámara de manos libres. Nosotros ponemos el casco y los goggles, y hay lockers sin costo."
+      },
+      {
+        "q": "¿Se puede nadar en la playa?",
+        "a": "No. Migriño es Pacífico abierto con corrientes muy fuertes y no es apto para nadar. La playa es para recorrerla, y esa regla no se negocia."
+      },
+      {
+        "q": "¿Hay comida en el parque?",
+        "a": "Sí. Tenemos restaurante con comida a la carta, opciones vegetarianas, café y bar. Con el Pase de Día la comida va incluida."
+      },
+      {
+        "q": "¿Puedo cancelar o cambiar mi reserva?",
+        "a": "Sí, sin penalización hasta 48 horas antes de tu tour. Con menos de 48 horas, o si no te presentas, no hay reembolso. Si cancelamos nosotros por clima, reprogramamos o te devolvemos todo."
+      },
+      {
+        "q": "¿Cómo puedo pagar?",
+        "a": "Aceptamos Visa, Mastercard y American Express en línea. También puedes apartar y pagar el resto al llegar."
+      },
+      {
+        "q": "¿Hay descuento para locales?",
+        "a": "Sí. Si vives en Baja California Sur, presenta tu identificación con domicilio y accede a la tarifa local. Escríbenos por WhatsApp para que te la confirmemos."
+      }
+    ],
+    "seeMore": "Ver más"
+  },
+  "payment": {
+    "title": "Pago seguro",
+    "body": "Aceptamos Visa, Mastercard y American Express."
+  },
+  "cta": {
+    "title": "¿Listo para tu aventura en Los Cabos?",
+    "subtitle": "Aparta tu lugar en menos de dos minutos. Si tienes dudas, escríbenos por WhatsApp y te contestamos al momento.",
+    "primary": "Ver actividades",
+    "secondary": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Tours de aventura en Playa Migriño, Los Cabos, Baja California Sur.",
+    "explore": "Explora",
+    "help": "Ayuda",
+    "contact": "Contacto",
+    "terms": "Términos y condiciones",
+    "privacy": "Aviso de privacidad",
+    "cancellation": "Política de cancelación",
+    "address": "Carretera Federal 19 km 100, Playa Migriño, Los Cabos, BCS",
+    "hours": "Todos los días, 8:00 a 18:00",
+    "maps": "Ver en Google Maps",
+    "rights": "Todos los derechos reservados."
+  },
+  "wip": {
+    "label": "Fase 1",
+    "text": "Sitio en construcción. Fotos y precios son de referencia — pendiente cargar los reales."
+  },
+  "categories": {
+    "atv": {
+      "name": "Cuatrimotos",
+      "tagline": "El clásico de Migriño, en unidad individual",
+      "intro": "Dos recorridos, una filosofía: que manejes tú. La cuatrimoto es la manera más directa de conocer Migriño — desierto, cañón, el arroyo ancho y salida a la playa del Pacífico — y la que mejor funciona si nunca has hecho off-road.\n\nSalimos con guía adelante marcando el ritmo y otro cerrando el grupo, así que nadie se queda atrás ni se siente presionado.",
+      "note": "Conductores desde 16 años con identificación. Pasajeros desde 7."
+    },
+    "utv": {
+      "name": "UTV y Can-Am",
+      "tagline": "Volante, cinturones y jaula: de lo familiar a lo extremo",
+      "intro": "Cuatro unidades para cuatro perfiles distintos. El Side by Side para ir en pareja o con un hijo, el Can-Am X3 cuando quieres velocidad de verdad, el Maverick de 195 caballos para quien ya tiene experiencia, y el Mini RZR para que los niños manejen el suyo.\n\nTodas llevan volante, dos asientos con cinturón y jaula antivuelco. Más estables y más cómodas que una cuatrimoto.",
+      "note": "El segundo asiento no cuesta extra en ninguna unidad de esta categoría."
+    },
+    "combo": {
+      "name": "Combos",
+      "tagline": "Dos o tres actividades en una sola salida",
+      "intro": "En vez de venir dos días y pagar dos transportes, haces una hora de cada actividad en la misma salida. La combinación más pedida es cuatrimoto más camello, pero armas la tuya.\n\nSale bastante mejor de precio que reservarlas por separado, y como todo pasa en el mismo lugar no pierdes tiempo en traslados. Es el favorito de quienes llegan en crucero.",
+      "note": "El Combo Balandra es distinto: día completo con Playa Balandra y La Paz."
+    },
+    "bike": {
+      "name": "Bicicletas",
+      "tagline": "El desierto sin motor, en silencio",
+      "intro": "Dos opciones según cuánto quieras esforzarte: la eléctrica, que sube las cuestas por ti, y la de montaña, para quien sí quiere pedalear.\n\nMisma ruta de desierto, arroyo y playa que los tours motorizados, pero escuchando el desierto en vez del motor. Es la forma más barata de conocer Migriño y la mejor para ver fauna.",
+      "note": "Desde 12 años. Es también la categoría más económica del catálogo."
+    },
+    "camel": {
+      "name": "Paseo en Camello",
+      "tagline": "Caminata guiada por el desierto y la playa, desde 5 años",
+      "intro": "Nuestros camellos viven en un santuario registrado ante SEMARNAT y caminan a su ritmo, siempre con un cuidador a pie. No es un tour de velocidad: es de paisaje, de fotos y de convivir con los animales.\n\nEs lo que mejor funciona con niños chicos y con abuelos, y de lejos lo que más fotos genera del viaje.",
+      "note": "Desde 5 años. No se necesita experiencia previa."
+    },
+    "horse": {
+      "name": "Cabalgata",
+      "tagline": "Trote tranquilo frente a las olas del Pacífico",
+      "intro": "Caballos dóciles, guía a tu lado todo el recorrido y una ruta que va del desierto directo a la orilla. No hace falta saber montar: ajustamos el ritmo al del grupo.\n\nEs el tour más tranquilo que tenemos, y de lejos el mejor al atardecer.",
+      "note": "Desde 6 años, peso máximo 110 kg."
+    },
+    "skybike": {
+      "name": "Sky Bikes",
+      "tagline": "850 metros suspendido sobre el cañón",
+      "intro": "Una bicicleta fija sobre un cable tendido de un lado del cañón al otro. Vas sentado, pedaleando a tu ritmo, con arnés doble y línea de vida independiente.\n\nNo hay caída libre ni velocidad: es altura y vista. Por eso funciona para quien quiere el paisaje sin la adrenalina de una tirolesa tradicional.",
+      "note": "Desde 8 años, estatura mínima 1.20 m y peso máximo 120 kg."
+    }
+  },
+  "promoSlider": [
+    {
+      "eyebrow": "Playa Migriño",
+      "title": "El parque de aventura líder en Los Cabos",
+      "body": "Cuatrimotos, UTV, Sky Bike, camellos y caballos en un solo lugar, a 45 minutos de Cabo San Lucas.",
+      "cta": "Ver actividades",
+      "href": "/tours",
+      "photo": "motor"
+    },
+    {
+      "eyebrow": "Lo más vendido",
+      "title": "Combo 2 en 1: dos actividades, una sola salida",
+      "body": "Una hora de cada una, con un solo transporte y una sola entrada. El favorito de quienes llegan en crucero.",
+      "cta": "Ver combos",
+      "href": "/actividades/combo",
+      "photo": "mar"
+    },
+    {
+      "eyebrow": "Nuevo",
+      "title": "Combo 3 en 1: conoce el parque completo",
+      "body": "Motor, animales y altura en la misma mañana. Tres horas de recorrido y mucho más barato que reservarlas por separado.",
+      "cta": "Ver el 3 en 1",
+      "href": "/tours/combo-3x1",
+      "photo": "dunas"
+    },
+    {
+      "eyebrow": "Altura",
+      "title": "Sky Bike: 850 metros sobre el cañón",
+      "body": "Pedaleas suspendido, con arnés doble y línea de vida independiente. Desde 8 años.",
+      "cta": "Ver Sky Bike",
+      "href": "/tours/sky-bike",
+      "photo": "canon"
+    }
+  ],
+  "promos": {
+    "eyebrow": "¡Compra ahora y ahorra!",
+    "title": "Promociones",
+    "subtitle": "Las ofertas activas de este mes. Todas incluyen transporte redondo, comida y equipo de seguridad. La entrada al parque se paga aparte.",
+    "items": [
+      {
+        "tag": "Ahorra $25",
+        "title": "Combo 2 en 1",
+        "body": "Dos actividades a elegir en una sola salida de dos horas.",
+        "price": 100,
+        "before": 125,
+        "href": "/tours/combo-2x1",
+        "photo": "mar"
+      },
+      {
+        "tag": "Ahorra $50",
+        "title": "Combo 3 en 1",
+        "body": "Tres actividades distintas en tres horas de recorrido.",
+        "price": 125,
+        "before": 175,
+        "href": "/tours/combo-3x1",
+        "photo": "dunas"
+      },
+      {
+        "tag": "Ahorra $60",
+        "title": "Pase de Día Completo",
+        "body": "Acceso libre a las actividades, Beach Club y comida.",
+        "price": 239,
+        "before": 299,
+        "href": "/pase-de-dia",
+        "photo": "desierto"
+      },
+      {
+        "tag": "Ahorra $35",
+        "title": "Combo 2 en 1 Premium",
+        "body": "Mismo formato, con las unidades de gama alta.",
+        "price": 140,
+        "before": 175,
+        "href": "/tours/combo-2x1-premium",
+        "photo": "canon"
+      }
+    ]
+  },
+  "welcome": {
+    "eyebrow": "Bienvenido a Adrenalina Cabo",
+    "title": "¡Siente la adrenalina, siente Adrenalina Cabo!",
+    "body": "Somos el parque de experiencias al aire libre líder en Los Cabos, con seguridad, calidad y servicio como bandera.",
+    "claimTitle": "850 metros de recorrido aéreo",
+    "claimBody": "El Sky Bike cruza el cañón de lado a lado con arnés doble y línea de vida independiente.",
+    "cta": "Ver más",
+    "claim": "Poseedores del récord Guinness a la tirolesa en bicicleta más larga del mundo"
+  },
+  "tabs": {
+    "reserve": "RESERVAR",
+    "included": "QUÉ INCLUYE",
+    "extra": "CARGOS EXTRA",
+    "before": "ANTES DE RESERVAR",
+    "recommend": "RECOMENDACIONES",
+    "safety": "SEGURIDAD",
+    "adultPrice": "Precio adulto",
+    "childPrice": "Precio niño",
+    "perPerson": "por persona",
+    "childNote": "La tarifa de niño aplica hasta los 11 años. De 12 en adelante se cobra tarifa de adulto.",
+    "parkFee": "Entrada al parque",
+    "parkFeeNote": "Obligatoria, por persona. Aplica a todos los tours y NO está incluida en el precio del tour.",
+    "includedTitle": "Todo lo que necesitas para tu día de aventura",
+    "extraTitle": "Servicios opcionales y cargos adicionales",
+    "beforeTitle": "Para tu seguridad y para que lo disfrutes",
+    "recommendTitle": "Qué te recomendamos llevar",
+    "safetyTitle": "Tu seguridad y la calidad de la experiencia son la prioridad",
+    "cancelTitle": "POLÍTICA DE CANCELACIÓN",
+    "infoTitle": "INFORMACIÓN",
+    "infoDuration": "Duración",
+    "infoMinAge": "Edad mínima",
+    "infoTransport": "Transporte",
+    "infoTransportValue": "Redondo incluido",
+    "infoDepartures": "Salidas",
+    "payTitle": "MÉTODOS DE PAGO",
+    "payBody": "Aceptamos Visa, Mastercard y American Express.",
+    "admission": "Por política de la empresa y por razones de seguridad, nos reservamos el derecho de admisión.",
+    "total": "Total"
+  },
+  "included": [
+    "Cata de tequila en el museo",
+    "Caminata ecológica",
+    "Safari por el desierto",
+    "Equipo de seguridad",
+    "Transporte redondo",
+    "Kids Club (bajo petición)",
+    "Lockers",
+    "Agua fresca",
+    "Tacos y quesadillas (res, pastor, pollo)"
+  ],
+  "extraFees": [
+    "Entrada al parque, obligatoria: $25 USD por persona, aplica a todos los tours.",
+    "Paquete de fotografía (opcional).",
+    "Protección del vehículo (opcional): si decides no tomarla, se requiere una tarjeta de crédito para retención temporal.",
+    "Tour privado (opcional): experiencia exclusiva para tu grupo, con acceso a celulares y cámaras.",
+    "Guía personalizado (opcional)."
+  ],
+  "recommendations": [
+    "Ropa cómoda o deportiva",
+    "Zapato cerrado",
+    "Bloqueador solar",
+    "Un método de pago adicional",
+    "Suéter en invierno"
+  ],
+  "safety": [
+    "No se permite el uso de celulares, cámaras ni dispositivos electrónicos durante la actividad. Sí se permiten cámaras tipo GoPro de manos libres.",
+    "Nuestras experiencias son al aire libre y requieren mucha interacción. Esta medida protege tu seguridad y la de todos los participantes, y permite que disfrutes la actividad sin distracciones.",
+    "En el tour privado sí se permite el uso de celulares y cámaras, porque no afecta la seguridad ni la experiencia del resto del grupo.",
+    "Las condiciones del océano en la propiedad son extremadamente peligrosas y no aptas para nadar. La zona tiene corrientes fuertes, olas potentes y condiciones submarinas de riesgo.",
+    "Aunque las playas en México son públicas, no se permite entrar al mar en ningún momento durante la visita ni durante ninguna actividad.",
+    "Quien entre al mar lo hace bajo su propio riesgo, y libera a la empresa, sus dueños, empleados, afiliados y socios de cualquier responsabilidad por lesión, accidente, pérdida o muerte.",
+    "Aplicación de la política: a quien entre al mar se le termina el tour de inmediato sin reembolso, se le traslada de regreso a discreción del personal, y no se le permite reingresar a ninguna actividad."
+  ],
+  "cancellation": [
+    "Más de 48 horas antes de la actividad (pagos completos): reembolso posible, menos los cargos administrativos que apliquen.",
+    "Menos de 48 horas antes, llegadas tarde o no presentarse: sin reembolsos ni cambios.",
+    "Clima o problemas operativos: reembolso completo o cambio de fecha sin penalización, sujeto a disponibilidad.",
+    "Cambios posteriores a una promoción aplicada: penalización del 20%."
+  ],
+  "cats": {
+    "title": "Categorías"
+  },
+  "location": {
+    "eyebrow": "Ubicación",
+    "title": "Aquí estamos",
+    "body": "Carretera Federal 19 km 100, Migriño, 23597 Cabo San Lucas, B.C.S. A unos 30 minutos del centro de Cabo San Lucas.",
+    "cta": "Ver en Google Maps"
+  },
+  "closing": {
+    "eyebrow": "¡Experiencias extraordinarias!",
+    "title": "Reserva tu tour",
+    "body": "¿Listo para la aventura?",
+    "cta": "Ver tours"
+  }
+}

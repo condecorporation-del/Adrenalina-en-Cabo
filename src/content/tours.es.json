@@ -1,0 +1,301 @@
+{
+  "atv-migrino": {
+    "name": "Cuatrimoto Migriño",
+    "tagline": "El recorrido clásico: desierto, cañón, arroyo y playa del Pacífico",
+    "desc": "Es el tour con el que casi todos empiezan, y por algo. Arrancas entre cardones y mezquites, bajas por un cañón, cruzas el arroyo más ancho de la zona y sales de golpe a la playa abierta del Pacífico. Dos horas que se sienten cortas.\n\nVas en cuatrimoto individual, con guía adelante marcando el ritmo y otro cerrando el grupo. Paramos varias veces para tomar fotos y para que quien nunca ha manejado agarre confianza antes de la parte rápida.",
+    "highlights": [
+      "El arroyo de Migriño, el tramo más divertido de la ruta",
+      "Salida directa a la playa del Pacífico",
+      "Paradas para fotos sin prisa",
+      "Ideal si es tu primera vez en cuatrimoto"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y equipo", "text": "Te recibimos, te damos casco y goggles, y firmas el registro. Explicamos cómo funciona la unidad." },
+      { "time": "0:20", "title": "Práctica y salida", "text": "Vuelta de práctica en terreno plano para que agarres el acelerador y el freno. Cuando todos están listos, arrancamos." },
+      { "time": "0:35", "title": "Desierto y cañón", "text": "Subida entre cardones con vista al valle, y bajada al cañón. Primera parada de fotos." },
+      { "time": "1:10", "title": "Arroyo y playa", "text": "El tramo ancho del arroyo y salida a la playa abierta. Segunda parada, la de las mejores fotos." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Volvemos al campamento y cerramos con una cata de tequila antes de subir a la camioneta." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Seguro del vehículo", "Casco y goggles", "Agua embotellada", "Guía bilingüe", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "atv-playa-dunas": {
+    "name": "Cuatrimoto Playa y Dunas",
+    "tagline": "Cuatrimoto automática 4x4 con 50% más de playa",
+    "desc": "La versión larga y más rápida. Misma zona, pero con unidades automáticas 4x4 y una ruta que dedica la mitad del tiempo a playa abierta y campos de dunas.\n\nRecomendado si ya manejaste cuatrimoto antes o si quieres el recorrido con más arena y menos parada. La transmisión automática hace que te concentres en la dirección y no en los cambios.",
+    "highlights": [
+      "Cuatrimotos automáticas 4x4, más potencia y más fáciles de manejar",
+      "El doble de tiempo en playa que el tour clásico",
+      "Campos de dunas de arena suave",
+      "Grupos más chicos"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y equipo", "text": "Registro, casco y goggles, y explicación de la unidad automática." },
+      { "time": "0:15", "title": "Salida rápida", "text": "Práctica corta y arrancamos. Al ser automáticas, la curva de aprendizaje es mínima." },
+      { "time": "0:30", "title": "Dunas", "text": "Entrada a los campos de dunas. Subidas, bajadas y arena suelta. Parada de fotos arriba." },
+      { "time": "1:05", "title": "Playa abierta", "text": "El tramo largo frente al Pacífico, con las olas a un costado todo el camino." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Volvemos por el desierto y cerramos con la cata de tequila." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Seguro del vehículo", "Casco y goggles", "Agua embotellada", "Guía bilingüe", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "utv-side-by-side": {
+    "name": "UTV Side by Side",
+    "tagline": "Dos plazas lado a lado: la opción para ir en pareja o con un hijo",
+    "desc": "Un vehículo con volante, dos asientos con cinturón y jaula antivuelco. Uno maneja y el otro va al lado, no atrás. Es la mejor opción cuando van dos y no quieren rentar dos unidades, o cuando llevas a un niño.\n\nLa ruta es la misma del recorrido clásico —desierto, cañón, arroyo y playa— pero el UTV es más estable y más cómodo, así que se disfruta más si no te gusta la idea de una cuatrimoto.",
+    "highlights": [
+      "Volante, cinturones y jaula antivuelco",
+      "El acompañante va al lado, no atrás",
+      "Pasajeros desde 5 años",
+      "El segundo asiento no cuesta extra"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y equipo", "text": "Registro, casco y goggles. Ajustamos cinturones y revisamos la jaula." },
+      { "time": "0:20", "title": "Práctica", "text": "Vuelta de práctica para conocer el volante y los pedales, que se sienten muy distinto a una cuatrimoto." },
+      { "time": "0:35", "title": "Desierto y cañón", "text": "Ruta entre cardones y bajada al cañón, con parada de fotos." },
+      { "time": "1:10", "title": "Arroyo y playa", "text": "Cruce del arroyo y salida a la playa del Pacífico." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Vuelta al campamento y cata de tequila." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Seguro del vehículo", "Casco y goggles", "Segundo asiento sin costo", "Agua embotellada", "Guía bilingüe", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "can-am-x3": {
+    "name": "Can-Am X3 Turbo",
+    "tagline": "Nuestro vehículo premium, en las rutas más exigentes",
+    "desc": "El tope de la flota para quien quiere velocidad sin irse al extremo. Motor turbo, suspensión de recorrido largo y ancho de vía que te deja tomar las dunas y el arroyo a un ritmo que ninguna unidad estándar aguanta.\n\nLa ruta cambia: agregamos tramos que los demás tours no hacen. Va con guía dedicado y grupos de máximo ocho unidades. Si ya hiciste el tour clásico y te supo a poco, este es el siguiente paso.",
+    "highlights": [
+      "Motor turbo y suspensión de recorrido largo",
+      "Ruta extendida con tramos exclusivos",
+      "Guía dedicado y grupos de máximo 8 unidades",
+      "Dos asientos con arnés de cuatro puntos"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y briefing", "text": "Registro y explicación específica del X3: modos de manejo, arnés y comunicación con el guía." },
+      { "time": "0:20", "title": "Práctica", "text": "Vuelta de práctica más larga que en los otros tours, por la potencia de la unidad." },
+      { "time": "0:40", "title": "Ruta extendida", "text": "Tramos de desierto y cañón que no hacen los demás tours, a mayor velocidad." },
+      { "time": "1:15", "title": "Dunas y playa", "text": "Campos de dunas y salida a la playa abierta del Pacífico." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Vuelta al campamento y cata de tequila." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Seguro de vehículo premium", "Casco y goggles", "Segundo asiento sin costo", "Guía dedicado", "Agua embotellada", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "maverick-turbo": {
+    "name": "Maverick RC/RS Turbo",
+    "tagline": "195 caballos: el vehículo más rápido de la flota",
+    "desc": "Es el tope absoluto. Motor turbo de 195 caballos, suspensión de competencia y una relación potencia-peso que convierte el arroyo en pista. No es un tour para iniciarse: pedimos experiencia previa en vehículos todo terreno.\n\nSalimos en grupos de máximo seis unidades, con guía dedicado y radio. La ruta es la más larga y la más técnica que operamos, con tramos de dunas altas que ninguna otra unidad puede subir.",
+    "highlights": [
+      "Motor turbo de 195 caballos",
+      "Suspensión de competencia y radio con el guía",
+      "La ruta más técnica que operamos",
+      "Grupos de máximo 6 unidades"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Registro y briefing técnico", "text": "Revisamos tu experiencia previa, ajustamos arnés de cuatro puntos y explicamos el uso del radio." },
+      { "time": "0:25", "title": "Práctica en circuito", "text": "Vuelta de calibración para que sientas la respuesta del turbo antes de salir a ruta." },
+      { "time": "0:45", "title": "Ruta técnica", "text": "Cañón, arroyo y los tramos de dunas altas reservados para esta unidad." },
+      { "time": "1:20", "title": "Playa a velocidad", "text": "El tramo largo del Pacífico, donde la unidad da lo que promete." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Vuelta al campamento y cata de tequila." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Seguro de vehículo premium", "Casco, goggles y arnés de 4 puntos", "Radio con el guía", "Segundo asiento sin costo", "Guía dedicado", "Agua embotellada", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "mini-rzr": {
+    "name": "Mini RZR para niños",
+    "tagline": "Su propio vehículo todo terreno, en circuito controlado, desde 10 años",
+    "desc": "Vehículos a escala hechos para que los niños manejen ellos mismos, no de pasajeros. Circuito cerrado y supervisado, con velocidad limitada y un instructor por cada grupo chico.\n\nLos papás pueden acompañar a pie o hacer su propio tour mientras tanto. Es la actividad que convierte a los niños en los protagonistas del viaje, y de lejos la que más presumen después.",
+    "highlights": [
+      "El niño maneja su propia unidad",
+      "Circuito cerrado con velocidad limitada",
+      "Instructor asignado por grupo",
+      "Conductores desde 10 años, pasajeros desde 7"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Bienvenida", "text": "Registro, casco a su medida y explicación en palabras que sí entienden." },
+      { "time": "0:20", "title": "Práctica", "text": "Vueltas lentas en la zona plana hasta que el instructor los ve seguros." },
+      { "time": "0:45", "title": "Circuito", "text": "El recorrido completo del circuito, con curvas suaves y subidas de arena." },
+      { "time": "1:30", "title": "Cierre", "text": "Última vuelta libre, fotos con las unidades y regreso con los papás." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Seguro del vehículo", "Casco infantil", "Instructor asignado", "Agua embotellada", "Kids Club sin costo"],
+    "excludes": ["Propinas al instructor", "Paquete de fotos profesionales", "Alimentos"]
+  },
+  "camellos": {
+    "name": "Paseo en camello",
+    "tagline": "Caminata guiada por el desierto y la playa, desde 5 años",
+    "desc": "Nuestros camellos viven en un santuario registrado ante SEMARNAT, y el paseo lo hacen a su ritmo, acompañados siempre por un cuidador a pie. No es un tour de velocidad: es de paisaje, de fotos y de convivir con los animales.\n\nEs la actividad que mejor funciona con niños chicos y con abuelos, y la que casi siempre termina siendo la foto que la gente cuelga del viaje.",
+    "highlights": [
+      "Santuario registrado ante SEMARNAT",
+      "Un cuidador a pie por cada grupo",
+      "Desde 5 años, sin necesidad de experiencia",
+      "El mejor tour para fotos del viaje"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Bienvenida", "text": "Registro y presentación de los camellos y sus cuidadores." },
+      { "time": "0:20", "title": "Cómo subir", "text": "Explicación de cómo subir y bajar. Los camellos se arrodillan para que subas con calma." },
+      { "time": "0:35", "title": "Desierto", "text": "Caminata entre cardones con vista al valle. Parada de fotos." },
+      { "time": "1:05", "title": "Playa", "text": "Salida a la playa del Pacífico, el tramo más fotogénico del paseo." },
+      { "time": "1:40", "title": "Regreso y tequila", "text": "Vuelta al santuario, tiempo para fotos con los animales y cata de tequila para adultos." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Cuidador acompañante", "Agua embotellada", "Guía bilingüe", "Kids Club sin costo", "Cata de tequila para adultos"],
+    "excludes": ["Propinas al cuidador", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "caballos": {
+    "name": "Cabalgata en la playa",
+    "tagline": "Trote tranquilo frente a las olas del Pacífico",
+    "desc": "Caballos dóciles, guía a tu lado todo el recorrido y una ruta que va del desierto directo a la orilla. No hace falta saber montar: ajustamos el ritmo al del grupo y quien nunca se ha subido va acompañado.\n\nEs el tour más tranquilo que tenemos, y de lejos el mejor al atardecer.",
+    "highlights": [
+      "No se necesita experiencia previa",
+      "Guía a tu lado durante todo el recorrido",
+      "Tramo largo a la orilla del Pacífico",
+      "Espectacular en la salida de las 16:00"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Bienvenida", "text": "Registro y asignación de caballo según tu estatura y experiencia." },
+      { "time": "0:20", "title": "Cómo montar", "text": "Explicación de riendas, postura y frenado. Vuelta corta en el corral." },
+      { "time": "0:40", "title": "Desierto", "text": "Salida al desierto por vereda, a paso tranquilo." },
+      { "time": "1:10", "title": "Playa", "text": "El tramo largo frente a las olas, donde quien quiera puede trotar." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Vuelta al corral y cata de tequila." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Casco", "Guía acompañante", "Agua embotellada", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "sky-bike": {
+    "name": "Sky Bike",
+    "tagline": "Pedalea suspendido sobre el cañón, desde 8 años",
+    "desc": "Una bicicleta fija sobre un cable tendido de un lado a otro del cañón, con 850 metros de recorrido aéreo. Vas sentado, pedaleando a tu ritmo, con arnés doble y línea de vida independiente. No hay caída libre ni velocidad: es altura y vista.\n\nFunciona muy bien para quien quiere la vista del cañón sin la adrenalina de una tirolesa tradicional, y para familias con niños desde 8 años.",
+    "highlights": [
+      "850 metros de recorrido aéreo sobre el cañón",
+      "Arnés doble y línea de vida independiente",
+      "Vas a tu ritmo, sin caída libre",
+      "Desde 8 años"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y equipo", "text": "Registro, arnés y casco. Revisión del equipo por parte del técnico." },
+      { "time": "0:25", "title": "Briefing de seguridad", "text": "Cómo sentarte, cómo pedalear y qué hacer si te quieres detener a media línea." },
+      { "time": "0:40", "title": "Primera línea", "text": "El cruce principal del cañón, el tramo más alto del recorrido." },
+      { "time": "1:10", "title": "Segunda línea", "text": "Cruce de regreso, con la vista hacia el valle y el mar al fondo." },
+      { "time": "1:40", "title": "Cierre y tequila", "text": "Retiro de equipo y cata de tequila para adultos." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Arnés doble y casco", "Técnico certificado", "Agua embotellada", "Kids Club sin costo", "Cata de tequila para adultos"],
+    "excludes": ["Propinas al personal", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "bici-electrica": {
+    "name": "Bicicleta eléctrica",
+    "tagline": "Desierto y playa sin sudar: la bici hace la mitad del trabajo",
+    "desc": "Bicicletas con asistencia eléctrica que suben las cuestas por ti. Recorres la misma ruta de desierto y playa que los tours motorizados, pero en silencio y a un ritmo que te deja ver el paisaje.\n\nEs la opción para quien quiere actividad física sin terminar agotado, y la más tranquila para grupos mixtos donde no todos tienen la misma condición.",
+    "highlights": [
+      "Asistencia eléctrica en las subidas",
+      "Más fáciles de usar que una bici normal",
+      "Recorrido silencioso, ideal para ver fauna",
+      "Sin ruido ni polvo de motor"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y ajuste", "text": "Registro, casco y ajuste de sillín. Explicación de los niveles de asistencia." },
+      { "time": "0:20", "title": "Práctica", "text": "Vuelta corta para que sientas cómo entra la asistencia al pedalear." },
+      { "time": "0:40", "title": "Desierto", "text": "Ruta entre cardones con parada de fotos en el mirador." },
+      { "time": "1:15", "title": "Playa", "text": "Bajada a la orilla del Pacífico y tramo llano frente al mar." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Vuelta al campamento y cata de tequila." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Bicicleta eléctrica y casco", "Guía acompañante", "Agua embotellada", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "bici-montana": {
+    "name": "Bicicleta de montaña",
+    "tagline": "Vereda, arroyo y playa a pura pierna",
+    "desc": "Bicicletas de montaña con suspensión para quien sí quiere el esfuerzo. Ruta por vereda de desierto, cruce del arroyo y salida a la playa, con el guía marcando un ritmo que se ajusta al grupo.\n\nEs el tour más económico que tenemos y el que mejor conecta con el terreno: escuchas el desierto en vez del motor.",
+    "highlights": [
+      "Bicicletas con suspensión delantera",
+      "Ruta por vereda, arroyo y playa",
+      "Ritmo ajustado al grupo",
+      "La opción más económica del catálogo"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y ajuste", "text": "Registro, casco y ajuste de bicicleta según tu estatura." },
+      { "time": "0:20", "title": "Calentamiento", "text": "Vuelta corta para revisar frenos y cambios antes de salir." },
+      { "time": "0:40", "title": "Vereda y arroyo", "text": "Tramo de desierto por vereda y cruce del arroyo." },
+      { "time": "1:15", "title": "Playa", "text": "Salida a la orilla del Pacífico, el tramo llano del recorrido." },
+      { "time": "1:45", "title": "Regreso y tequila", "text": "Vuelta al campamento y cata de tequila." }
+    ],
+    "includes": ["Transporte redondo desde tu hotel", "Entrada al parque", "Bicicleta de montaña y casco", "Guía acompañante", "Agua embotellada", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "combo-2x1": {
+    "name": "Combo 2 en 1",
+    "tagline": "Dos actividades en una sola salida, al precio de una y media",
+    "desc": "Una hora de cada actividad, sin tener que venir dos días ni pagar dos transportes. La combinación más pedida es cuatrimoto más camello, pero puedes armar la tuya con cualquier par de actividades estándar.\n\nEs la mejor relación entre lo que pagas y lo que te llevas, sobre todo si vienes con poco tiempo en Cabo o llegas en crucero.",
+    "highlights": [
+      "Dos actividades en una salida de dos horas",
+      "Tú eliges la combinación",
+      "Un solo transporte, una sola entrada",
+      "El favorito de quienes llegan en crucero"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y equipo", "text": "Registro y equipo para la primera actividad que elegiste." },
+      { "time": "0:15", "title": "Primera actividad", "text": "Una hora completa: normalmente la cuatrimoto, por el desierto, el arroyo y la playa." },
+      { "time": "1:10", "title": "Cambio", "text": "Regreso al campamento, agua y cambio de equipo." },
+      { "time": "1:20", "title": "Segunda actividad", "text": "La segunda hora: camello, caballo o Sky Bike, según lo que hayas elegido." },
+      { "time": "2:15", "title": "Cierre y tequila", "text": "Cata de tequila y regreso a tu hotel." }
+    ],
+    "includes": ["Dos actividades a elegir", "Transporte redondo desde tu hotel", "Entrada al parque", "Seguro del vehículo", "Todo el equipo de seguridad", "Agua embotellada", "Guía bilingüe", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "combo-2x1-premium": {
+    "name": "Combo 2 en 1 Premium",
+    "tagline": "Mismo formato, pero con las unidades de gama alta",
+    "desc": "La versión del 2 en 1 armada con vehículos premium: Can-Am X3 o cuatrimoto automática 4x4 en la parte motorizada, y la actividad que elijas para la segunda hora.\n\nMás potencia, ruta extendida y grupos más chicos. Para quien quiere el combo pero no quiere la unidad estándar.",
+    "highlights": [
+      "Vehículos de gama alta en la parte motorizada",
+      "Ruta extendida en la primera hora",
+      "Grupos de máximo 10 personas",
+      "Segunda actividad a elegir"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y briefing", "text": "Registro y explicación específica del vehículo premium que elegiste." },
+      { "time": "0:20", "title": "Primera actividad premium", "text": "Una hora en Can-Am X3 o cuatrimoto automática, con ruta extendida." },
+      { "time": "1:15", "title": "Cambio", "text": "Regreso al campamento, agua y cambio de equipo." },
+      { "time": "1:25", "title": "Segunda actividad", "text": "Camello, caballo o Sky Bike, según lo que hayas elegido." },
+      { "time": "2:15", "title": "Cierre y tequila", "text": "Cata de tequila y regreso a tu hotel." }
+    ],
+    "includes": ["Dos actividades, una con vehículo premium", "Transporte redondo desde tu hotel", "Entrada al parque", "Seguro de vehículo premium", "Todo el equipo de seguridad", "Agua embotellada", "Guía bilingüe", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "combo-3x1": {
+    "name": "Combo 3 en 1",
+    "tagline": "Tres actividades en tres horas, la salida más completa",
+    "desc": "Una hora de cada una de tres actividades distintas. Es la manera de conocer el parque completo en una sola visita: motor, animales y altura en la misma mañana.\n\nSale mejor de precio que reservar las tres por separado, y como todo pasa en el mismo lugar no pierdes tiempo en traslados.",
+    "highlights": [
+      "Tres actividades distintas en una salida",
+      "Tres horas de recorrido total",
+      "Mucho más barato que reservarlas por separado",
+      "La opción más completa del catálogo"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Llegada y equipo", "text": "Registro y equipo para la primera de tus tres actividades." },
+      { "time": "0:15", "title": "Primera actividad", "text": "Una hora, normalmente la cuatrimoto por desierto y arroyo." },
+      { "time": "1:15", "title": "Segunda actividad", "text": "Cambio de equipo y una hora de camello o caballo." },
+      { "time": "2:15", "title": "Tercera actividad", "text": "La última hora: Sky Bike sobre el cañón, o la actividad que hayas elegido." },
+      { "time": "3:10", "title": "Cierre y tequila", "text": "Cata de tequila y regreso a tu hotel." }
+    ],
+    "includes": ["Tres actividades a elegir", "Transporte redondo desde tu hotel", "Entrada al parque", "Seguro del vehículo", "Todo el equipo de seguridad", "Agua embotellada", "Guía bilingüe", "Kids Club sin costo", "Cata de tequila"],
+    "excludes": ["Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  },
+  "combo-balandra": {
+    "name": "Combo Balandra",
+    "tagline": "Día completo: Playa Balandra, La Paz y actividades en Migriño",
+    "desc": "Doce horas para conocer lo mejor de Baja California Sur en un solo día. Salimos temprano rumbo a Playa Balandra —la de la piedra del hongo, considerada la playa más bonita de México— con tiempo para nadar y comer en el malecón de La Paz.\n\nDe regreso paramos en Migriño para una actividad a elegir antes de dejarte en tu hotel. Es un día largo, pero es el que la gente recuerda del viaje.",
+    "highlights": [
+      "Playa Balandra, la más bonita de México",
+      "Tiempo libre en el malecón de La Paz",
+      "Una actividad de aventura de regreso",
+      "Transporte y guía todo el día"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Salida temprano", "text": "Te recogemos en tu hotel y salimos rumbo a La Paz, unas tres horas de camino con parada técnica." },
+      { "time": "3:30", "title": "Playa Balandra", "text": "Tiempo para nadar en agua transparente y caminar a la piedra del hongo." },
+      { "time": "6:30", "title": "Malecón de La Paz", "text": "Comida y tiempo libre en el malecón." },
+      { "time": "9:00", "title": "Migriño", "text": "Regreso con parada en el parque para tu actividad a elegir." },
+      { "time": "11:30", "title": "Regreso al hotel", "text": "Te dejamos de vuelta en tu hotel." }
+    ],
+    "includes": ["Transporte redondo todo el día", "Entrada a Playa Balandra", "Entrada al parque de Migriño", "Una actividad a elegir", "Guía bilingüe todo el día", "Agua embotellada", "Cata de tequila"],
+    "excludes": ["Comida en el malecón", "Propinas al guía", "Paquete de fotos profesionales", "Bebidas alcohólicas adicionales"]
+  }
+}

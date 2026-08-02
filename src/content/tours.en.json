@@ -1,0 +1,301 @@
+{
+  "atv-migrino": {
+    "name": "Migriño ATV",
+    "tagline": "The classic ride: desert, canyon, riverbed and Pacific shoreline",
+    "desc": "This is the tour almost everyone starts with, and for good reason. You set off between cardón cactus and mesquite, drop into a canyon, cross the widest riverbed in the area and come out suddenly onto the open Pacific beach. Two hours that feel short.\n\nYou ride your own ATV, with a guide up front setting the pace and another closing the group. We stop several times for photos and to let first-timers build confidence before the faster stretch.",
+    "highlights": [
+      "The Migriño riverbed, the most fun stretch of the route",
+      "Direct exit onto the open Pacific beach",
+      "Unhurried photo stops",
+      "Ideal if it's your first time on an ATV"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and gear", "text": "We welcome you, hand out helmet and goggles, and you sign in. We walk you through how the machine works." },
+      { "time": "0:20", "title": "Practice and departure", "text": "A practice loop on flat ground so you get a feel for the throttle and brake. Once everyone's ready, we head out." },
+      { "time": "0:35", "title": "Desert and canyon", "text": "A climb through the cardones with valley views, then down into the canyon. First photo stop." },
+      { "time": "1:10", "title": "Riverbed and beach", "text": "The wide riverbed stretch and out onto the open beach. Second stop — the one with the best photos." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back to camp and a tequila tasting before you board the van." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Vehicle insurance", "Helmet and goggles", "Bottled water", "Bilingual guide", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "atv-playa-dunas": {
+    "name": "ATV Beach & Dunes",
+    "tagline": "Automatic 4x4 ATV with 50% more beach",
+    "desc": "The longer, faster version. Same area, but with automatic 4x4 machines and a route that spends half its time on open beach and dune fields.\n\nRecommended if you've ridden an ATV before or want the version with more sand and fewer stops. The automatic transmission lets you focus on steering instead of shifting.",
+    "highlights": [
+      "Automatic 4x4 ATVs — more power, easier to ride",
+      "Twice the beach time of the classic tour",
+      "Soft-sand dune fields",
+      "Smaller groups"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and gear", "text": "Sign-in, helmet and goggles, and a walkthrough of the automatic machine." },
+      { "time": "0:15", "title": "Quick start", "text": "Short practice loop and off we go. Being automatic, the learning curve is minimal." },
+      { "time": "0:30", "title": "Dunes", "text": "Into the dune fields. Climbs, drops and loose sand. Photo stop at the top." },
+      { "time": "1:05", "title": "Open beach", "text": "The long stretch facing the Pacific, waves alongside you the whole way." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back through the desert and a closing tequila tasting." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Vehicle insurance", "Helmet and goggles", "Bottled water", "Bilingual guide", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "utv-side-by-side": {
+    "name": "Side by Side UTV",
+    "tagline": "Two seats side by side: the pick for couples or riding with a child",
+    "desc": "A vehicle with a steering wheel, two belted seats and a roll cage. One drives, the other rides alongside — not behind. It's the best option when there are two of you and you'd rather not rent two machines, or when you're bringing a child.\n\nThe route is the same as the classic ride — desert, canyon, riverbed and beach — but the UTV is more stable and more comfortable, so it's the better call if an ATV doesn't appeal to you.",
+    "highlights": [
+      "Steering wheel, seatbelts and roll cage",
+      "Your companion rides beside you, not behind",
+      "Passengers from age 5",
+      "The second seat costs nothing extra"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and gear", "text": "Sign-in, helmet and goggles. We fit the belts and check the cage." },
+      { "time": "0:20", "title": "Practice", "text": "A practice loop to get used to the wheel and pedals, which feel very different from an ATV." },
+      { "time": "0:35", "title": "Desert and canyon", "text": "Route through the cardones and down into the canyon, with a photo stop." },
+      { "time": "1:10", "title": "Riverbed and beach", "text": "Riverbed crossing and out onto the Pacific shoreline." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back to camp and tequila tasting." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Vehicle insurance", "Helmet and goggles", "Second seat at no cost", "Bottled water", "Bilingual guide", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "can-am-x3": {
+    "name": "Can-Am X3 Turbo",
+    "tagline": "Our premium machine, on the most demanding routes",
+    "desc": "The top of the fleet for anyone who wants speed without going to the extreme. Turbo engine, long-travel suspension and a track width that lets you take the dunes and the riverbed at a pace no standard machine can handle.\n\nThe route changes too: we add stretches the other tours don't run. It goes out with a dedicated guide and groups capped at eight machines. If you've done the classic tour and wanted more, this is the next step.",
+    "highlights": [
+      "Turbo engine and long-travel suspension",
+      "Extended route with exclusive stretches",
+      "Dedicated guide, groups capped at 8 machines",
+      "Two seats with four-point harnesses"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and briefing", "text": "Sign-in and an X3-specific walkthrough: drive modes, harness and guide communication." },
+      { "time": "0:20", "title": "Practice", "text": "A longer practice loop than the other tours, given the machine's power." },
+      { "time": "0:40", "title": "Extended route", "text": "Desert and canyon stretches the other tours don't run, at higher speed." },
+      { "time": "1:15", "title": "Dunes and beach", "text": "Dune fields and out onto the open Pacific beach." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back to camp and tequila tasting." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Premium vehicle insurance", "Helmet and goggles", "Second seat at no cost", "Dedicated guide", "Bottled water", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "maverick-turbo": {
+    "name": "Maverick RC/RS Turbo",
+    "tagline": "195 horsepower: the fastest machine in the fleet",
+    "desc": "This is the absolute top. A 195-horsepower turbo engine, race-grade suspension and a power-to-weight ratio that turns the riverbed into a track. This isn't a beginner's tour: we ask for previous off-road experience.\n\nWe run groups of six machines maximum, with a dedicated guide and radio contact. The route is the longest and most technical we operate, including high dune sections no other machine can climb.",
+    "highlights": [
+      "195-horsepower turbo engine",
+      "Race-grade suspension and radio contact with your guide",
+      "The most technical route we operate",
+      "Groups capped at 6 machines"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Sign-in and technical briefing", "text": "We review your previous experience, fit the four-point harness and explain radio use." },
+      { "time": "0:25", "title": "Circuit practice", "text": "A calibration loop so you feel the turbo's response before heading out." },
+      { "time": "0:45", "title": "Technical route", "text": "Canyon, riverbed and the high dune sections reserved for this machine." },
+      { "time": "1:20", "title": "Beach at speed", "text": "The long Pacific stretch, where the machine delivers what it promises." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back to camp and tequila tasting." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Premium vehicle insurance", "Helmet, goggles and 4-point harness", "Radio contact with your guide", "Second seat at no cost", "Dedicated guide", "Bottled water", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "mini-rzr": {
+    "name": "Mini RZR for kids",
+    "tagline": "Their own off-road machine on a controlled circuit, from age 10",
+    "desc": "Scaled-down vehicles built so kids drive themselves, not ride as passengers. A closed, supervised circuit with limited top speed and one instructor per small group.\n\nParents can walk alongside or run their own tour meanwhile. It's the activity that makes kids the stars of the trip, and easily the one they brag about most afterwards.",
+    "highlights": [
+      "Your child drives their own machine",
+      "Closed circuit with limited top speed",
+      "An instructor assigned to each group",
+      "Drivers from age 10, passengers from 7"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Welcome", "text": "Sign-in, a helmet in their size, and a briefing in words they actually understand." },
+      { "time": "0:20", "title": "Practice", "text": "Slow laps on the flat until the instructor sees they're confident." },
+      { "time": "0:45", "title": "Circuit", "text": "The full circuit run, with gentle curves and sand climbs." },
+      { "time": "1:30", "title": "Wrap-up", "text": "One last free lap, photos with the machines and back to the parents." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Vehicle insurance", "Kids helmet", "Assigned instructor", "Bottled water", "Free Kids Club"],
+    "excludes": ["Instructor gratuity", "Professional photo package", "Meals"]
+  },
+  "camellos": {
+    "name": "Camel Ride",
+    "tagline": "A guided walk through desert and beach, from age 5",
+    "desc": "Our camels live in a sanctuary registered with SEMARNAT, and they walk at their own pace, always accompanied by a handler on foot. This isn't a speed tour: it's about the landscape, the photos and time with the animals.\n\nIt's the activity that works best with small children and grandparents, and the one that almost always ends up being the photo people post from the trip.",
+    "highlights": [
+      "Sanctuary registered with SEMARNAT",
+      "One handler on foot per group",
+      "From age 5, no experience needed",
+      "The best photo tour of your trip"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Welcome", "text": "Sign-in and an introduction to the camels and their handlers." },
+      { "time": "0:20", "title": "Getting on", "text": "How to mount and dismount. The camels kneel so you can climb up calmly." },
+      { "time": "0:35", "title": "Desert", "text": "A walk through the cardones with valley views. Photo stop." },
+      { "time": "1:05", "title": "Beach", "text": "Out onto the Pacific shoreline, the most photogenic stretch of the ride." },
+      { "time": "1:40", "title": "Return and tequila", "text": "Back to the sanctuary, time for photos with the animals, and a tequila tasting for adults." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Accompanying handler", "Bottled water", "Bilingual guide", "Free Kids Club", "Tequila tasting for adults"],
+    "excludes": ["Handler gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "caballos": {
+    "name": "Beach Horseback Ride",
+    "tagline": "An easy trot facing the Pacific waves",
+    "desc": "Gentle horses, a guide beside you the whole way, and a route that runs from the desert straight to the shoreline. You don't need to know how to ride: we set the pace to the group, and anyone who's never been on a horse gets a guide alongside them.\n\nIt's the calmest tour we run, and by far the best one at sunset.",
+    "highlights": [
+      "No previous experience required",
+      "A guide beside you the entire ride",
+      "A long stretch along the Pacific shoreline",
+      "Spectacular on the 16:00 departure"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Welcome", "text": "Sign-in and horse assignment based on your height and experience." },
+      { "time": "0:20", "title": "How to ride", "text": "Reins, posture and stopping. A short loop in the corral." },
+      { "time": "0:40", "title": "Desert", "text": "Out onto the desert trail at an easy walk." },
+      { "time": "1:10", "title": "Beach", "text": "The long stretch facing the waves, where anyone who wants to can trot." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back to the corral and tequila tasting." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Helmet", "Accompanying guide", "Bottled water", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "sky-bike": {
+    "name": "Sky Bike",
+    "tagline": "Pedal suspended above the canyon, from age 8",
+    "desc": "A fixed bicycle on a cable strung from one side of the canyon to the other, with 850 metres of aerial route. You sit and pedal at your own pace, in a double harness with an independent safety line. There's no free fall and no speed: it's height and views.\n\nIt works well for anyone who wants the canyon view without the adrenaline of a traditional zipline, and for families with kids from age 8.",
+    "highlights": [
+      "850 metres of aerial route above the canyon",
+      "Double harness and independent safety line",
+      "You go at your own pace, no free fall",
+      "From age 8"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and gear", "text": "Sign-in, harness and helmet. Equipment check by the technician." },
+      { "time": "0:25", "title": "Safety briefing", "text": "How to sit, how to pedal, and what to do if you want to stop mid-line." },
+      { "time": "0:40", "title": "First line", "text": "The main canyon crossing, the highest stretch of the route." },
+      { "time": "1:10", "title": "Second line", "text": "The crossing back, with a view over the valley and the sea beyond." },
+      { "time": "1:40", "title": "Wrap-up and tequila", "text": "Gear removal and a tequila tasting for adults." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Double harness and helmet", "Certified technician", "Bottled water", "Free Kids Club", "Tequila tasting for adults"],
+    "excludes": ["Staff gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "bici-electrica": {
+    "name": "Electric Bike",
+    "tagline": "Desert and beach without breaking a sweat — the bike does half the work",
+    "desc": "Pedal-assist bicycles that handle the climbs for you. You ride the same desert-and-beach route as the motorized tours, but quietly and at a pace that lets you actually look at the landscape.\n\nIt's the pick for anyone who wants the exercise without finishing exhausted, and the easiest option for mixed groups where not everyone is at the same fitness level.",
+    "highlights": [
+      "Electric assist on the climbs",
+      "Easier to ride than a regular bike",
+      "Silent route, great for spotting wildlife",
+      "No engine noise or dust"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and fitting", "text": "Sign-in, helmet and saddle adjustment. Walkthrough of the assist levels." },
+      { "time": "0:20", "title": "Practice", "text": "A short loop so you feel how the assist kicks in as you pedal." },
+      { "time": "0:40", "title": "Desert", "text": "Route through the cardones with a photo stop at the lookout." },
+      { "time": "1:15", "title": "Beach", "text": "Descent to the Pacific shoreline and the flat stretch facing the sea." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back to camp and tequila tasting." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Electric bike and helmet", "Accompanying guide", "Bottled water", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "bici-montana": {
+    "name": "Mountain Bike",
+    "tagline": "Trail, riverbed and beach on leg power alone",
+    "desc": "Suspension mountain bikes for anyone who actually wants the effort. A route along desert singletrack, across the riverbed and out to the beach, with the guide setting a pace that adjusts to the group.\n\nIt's the most affordable tour we run and the one that connects you best with the terrain: you hear the desert instead of an engine.",
+    "highlights": [
+      "Bikes with front suspension",
+      "Singletrack, riverbed and beach route",
+      "Pace adjusted to the group",
+      "The most affordable option in the catalogue"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and fitting", "text": "Sign-in, helmet and bike adjusted to your height." },
+      { "time": "0:20", "title": "Warm-up", "text": "A short loop to check brakes and gears before heading out." },
+      { "time": "0:40", "title": "Trail and riverbed", "text": "Desert singletrack and the riverbed crossing." },
+      { "time": "1:15", "title": "Beach", "text": "Out to the Pacific shoreline, the flat stretch of the route." },
+      { "time": "1:45", "title": "Return and tequila", "text": "Back to camp and tequila tasting." }
+    ],
+    "includes": ["Round-trip transportation from your hotel", "Park entrance", "Mountain bike and helmet", "Accompanying guide", "Bottled water", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "combo-2x1": {
+    "name": "2-in-1 Combo",
+    "tagline": "Two activities in one outing, for the price of one and a half",
+    "desc": "One hour of each activity, without coming back a second day or paying for two transfers. The most requested pairing is ATV plus camel, but you can build your own from any two standard activities.\n\nIt's the best value we offer, especially if you're short on time in Cabo or arriving on a cruise.",
+    "highlights": [
+      "Two activities in a single two-hour outing",
+      "You choose the combination",
+      "One transfer, one entrance",
+      "The favorite among cruise passengers"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and gear", "text": "Sign-in and gear for the first activity you chose." },
+      { "time": "0:15", "title": "First activity", "text": "A full hour: usually the ATV, through desert, riverbed and beach." },
+      { "time": "1:10", "title": "Switch", "text": "Back to camp, water and a gear change." },
+      { "time": "1:20", "title": "Second activity", "text": "The second hour: camel, horse or Sky Bike, depending on what you picked." },
+      { "time": "2:15", "title": "Wrap-up and tequila", "text": "Tequila tasting and the ride back to your hotel." }
+    ],
+    "includes": ["Two activities of your choice", "Round-trip transportation from your hotel", "Park entrance", "Vehicle insurance", "All safety equipment", "Bottled water", "Bilingual guide", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "combo-2x1-premium": {
+    "name": "2-in-1 Combo Premium",
+    "tagline": "Same format, built around the high-end machines",
+    "desc": "The 2-in-1 assembled with premium vehicles: a Can-Am X3 or automatic 4x4 ATV for the motorized half, plus whichever activity you choose for the second hour.\n\nMore power, extended route and smaller groups. For anyone who wants the combo but not the standard machine.",
+    "highlights": [
+      "High-end machines on the motorized half",
+      "Extended route in the first hour",
+      "Groups capped at 10 people",
+      "Second activity of your choice"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and briefing", "text": "Sign-in and a walkthrough specific to the premium vehicle you chose." },
+      { "time": "0:20", "title": "First premium activity", "text": "An hour on a Can-Am X3 or automatic ATV, on the extended route." },
+      { "time": "1:15", "title": "Switch", "text": "Back to camp, water and a gear change." },
+      { "time": "1:25", "title": "Second activity", "text": "Camel, horse or Sky Bike, depending on what you picked." },
+      { "time": "2:15", "title": "Wrap-up and tequila", "text": "Tequila tasting and the ride back to your hotel." }
+    ],
+    "includes": ["Two activities, one on a premium machine", "Round-trip transportation from your hotel", "Park entrance", "Premium vehicle insurance", "All safety equipment", "Bottled water", "Bilingual guide", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "combo-3x1": {
+    "name": "3-in-1 Combo",
+    "tagline": "Three activities in three hours — the most complete outing",
+    "desc": "One hour each of three different activities. It's how you see the whole park in a single visit: motor, animals and heights in the same morning.\n\nIt works out cheaper than booking the three separately, and since everything happens in one place you lose no time to transfers.",
+    "highlights": [
+      "Three different activities in one outing",
+      "Three hours of total riding time",
+      "Much cheaper than booking separately",
+      "The most complete option in the catalogue"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Arrival and gear", "text": "Sign-in and gear for the first of your three activities." },
+      { "time": "0:15", "title": "First activity", "text": "One hour, usually the ATV through desert and riverbed." },
+      { "time": "1:15", "title": "Second activity", "text": "Gear change and an hour of camel or horseback riding." },
+      { "time": "2:15", "title": "Third activity", "text": "The last hour: Sky Bike over the canyon, or whichever activity you chose." },
+      { "time": "3:10", "title": "Wrap-up and tequila", "text": "Tequila tasting and the ride back to your hotel." }
+    ],
+    "includes": ["Three activities of your choice", "Round-trip transportation from your hotel", "Park entrance", "Vehicle insurance", "All safety equipment", "Bottled water", "Bilingual guide", "Free Kids Club", "Tequila tasting"],
+    "excludes": ["Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  },
+  "combo-balandra": {
+    "name": "Balandra Combo",
+    "tagline": "Full day: Balandra Beach, La Paz and an activity at Migriño",
+    "desc": "Twelve hours to see the best of Baja California Sur in a single day. We head out early for Balandra Beach — the one with the mushroom rock, widely considered the most beautiful beach in Mexico — with time to swim and eat along the La Paz waterfront.\n\nOn the way back we stop at Migriño for an activity of your choice before dropping you at your hotel. It's a long day, but it's the one people remember from the trip.",
+    "highlights": [
+      "Balandra Beach, the most beautiful in Mexico",
+      "Free time on the La Paz waterfront",
+      "An adventure activity on the way back",
+      "Transportation and guide all day"
+    ],
+    "itinerary": [
+      { "time": "0:00", "title": "Early departure", "text": "We pick you up at your hotel and head for La Paz, about three hours with a rest stop." },
+      { "time": "3:30", "title": "Balandra Beach", "text": "Time to swim in clear water and walk out to the mushroom rock." },
+      { "time": "6:30", "title": "La Paz waterfront", "text": "Lunch and free time along the malecón." },
+      { "time": "9:00", "title": "Migriño", "text": "Return trip with a stop at the park for your chosen activity." },
+      { "time": "11:30", "title": "Back to your hotel", "text": "We drop you back where we picked you up." }
+    ],
+    "includes": ["Round-trip transportation all day", "Balandra Beach entrance", "Migriño park entrance", "One activity of your choice", "Bilingual guide all day", "Bottled water", "Tequila tasting"],
+    "excludes": ["Lunch on the waterfront", "Guide gratuity", "Professional photo package", "Additional alcoholic drinks"]
+  }
+}
