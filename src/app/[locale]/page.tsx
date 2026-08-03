@@ -276,6 +276,8 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
                 src={`https://www.google.com/maps?q=${encodeURIComponent(t.footer.address)}&output=embed`}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                /* Deja usar el mapa sin que su scroll arrastre la página. */
+                data-lenis-prevent
                 className="h-80 w-full sm:h-96"
               />
             </div>

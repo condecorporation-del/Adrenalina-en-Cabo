@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Archivo, Kumbh_Sans } from "next/font/google";
 import "../globals.css";
 import { LOCALES, isLocale } from "@/lib/locales";
+import { SmoothScroll } from "@/components/smooth-scroll";
 
 /* Cuerpo: la misma tipografía que usa cactustours.com, en su mismo rango de
    pesos. Titulares: Archivo con su eje de ancho — la variante expandida es
@@ -65,7 +66,9 @@ export default async function LocaleLayout({
       lang={locale === "es" ? "es-MX" : "en-US"}
       className={`${kumbh.variable} ${archivo.variable}`}
     >
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <SmoothScroll>{children}</SmoothScroll>
+      </body>
     </html>
   );
 }

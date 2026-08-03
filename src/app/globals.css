@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "lenis/dist/lenis.css";
 
 /* ---------------------------------------------------------------------------
    Adrenalina Cabo — dirección "Horizonte Baja"
@@ -59,6 +60,20 @@
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
+}
+
+/* Con Lenis activo el deslizamiento lo maneja él. Dejar además el suavizado
+   nativo hace que los dos peleen por la misma posición en los anclas. */
+html.lenis {
+  scroll-behavior: auto;
+}
+
+/* Lenis apaga los clics en TODOS los iframes para que la rueda no se le
+   escape dentro de uno. Eso dejaría muerto el mapa de la portada, así que
+   se le devuelven a los que marcamos como interactivos; `data-lenis-prevent`
+   en el mismo elemento evita que el scroll del mapa mueva la página. */
+.lenis.lenis-smooth iframe[data-lenis-prevent] {
+  pointer-events: auto;
 }
 
 body {
