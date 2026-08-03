@@ -34,9 +34,21 @@ export function Photo({
   /** Overlays y badges que van encima de la imagen. */
   children?: React.ReactNode;
 }) {
+  /**
+   * `relative` solo si quien llama no puso ya su propia posición.
+   *
+   * Los heroes pasan `absolute inset-0`, y al quedar las dos clases juntas
+   * ganaba `relative` —Tailwind la escribe después en la hoja—, así que el
+   * `inset-0` no aplicaba, el contenedor medía cero de alto y la foto del
+   * hero no se veía en ninguna página de tour ni de categoría.
+   */
+  const posicionada = /(^|\s)(absolute|fixed|sticky|relative)(\s|$)/.test(
+    className,
+  );
+
   return (
     <div
-      className={`grain relative overflow-hidden ${activity.image ? "bg-noche" : PHOTO_CLASS[activity.photo]} ${className}`}
+      className={`${posicionada ? "" : "relative"} overflow-hidden ${activity.image ? "bg-noche" : PHOTO_CLASS[activity.photo]} ${className}`}
     >
       {activity.image && (
         <Image
