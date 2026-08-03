@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ViewTransition } from "react";
 import type { Activity } from "@/lib/activities";
 import type { Locale } from "@/lib/locales";
 import { Photo } from "@/components/photo";
@@ -71,7 +72,11 @@ export function ActivityCard({
           <span className="sr-only">{name}</span>
         </Link>
 
-        {/* Foto real si existe; si no, degradado en malla con grano. */}
+        {/* Foto real si existe; si no, degradado en malla con grano.
+            El nombre la ata a la foto grande de la página del tour: al abrir
+            el detalle, esta misma crece hasta su lugar en vez de que una
+            desaparezca y otra aparezca. */}
+        <ViewTransition name={`tour-${activity.slug}`} share="morph">
         <Photo activity={activity} alt={name} className="aspect-[3/2] w-full">
           <div className="absolute inset-0 bg-gradient-to-t from-noche/80 via-noche/10 to-transparent" />
 
@@ -98,6 +103,7 @@ export function ActivityCard({
             </span>
           </div>
         </Photo>
+        </ViewTransition>
 
         <div className="flex flex-1 flex-col p-5">
           <h3 className="text-lg leading-tight transition-colors group-hover:text-marca">

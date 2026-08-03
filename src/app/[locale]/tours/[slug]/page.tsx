@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ViewTransition } from "react";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getDictionary, getTours } from "@/lib/i18n";
@@ -128,13 +129,17 @@ export default async function TourPage({
 
       {/* ------------------------------------------------------------- HERO */}
       <section className="relative isolate overflow-hidden text-white">
-        <Photo
-          activity={activity}
-          alt={tour.name}
-          priority
-          sizes="100vw"
-          className="absolute inset-0 -z-10"
-        />
+        {/* Mismo nombre que la foto de su tarjeta: la que venía de la lista
+            crece hasta aquí. Ver components/activity-card.tsx. */}
+        <ViewTransition name={`tour-${activity.slug}`} share="morph">
+          <Photo
+            activity={activity}
+            alt={tour.name}
+            priority
+            sizes="100vw"
+            className="absolute inset-0 -z-10"
+          />
+        </ViewTransition>
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-noche/80 via-noche/35 to-transparent" />
 
         <div className="container-x py-14 sm:py-20 lg:py-24">

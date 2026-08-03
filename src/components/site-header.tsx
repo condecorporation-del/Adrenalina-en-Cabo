@@ -85,6 +85,10 @@ export function SiteHeader({
   return (
     <header
       onMouseLeave={() => setMenu(false)}
+      /* Punto fijo durante las transiciones entre páginas: si el header se
+         moviera con el contenido, se perdería la referencia de que lo que
+         cambió fue la página y no toda la ventana. */
+      style={{ viewTransitionName: "site-header" }}
       className={`${overHero ? "fixed" : "sticky"} top-0 inset-x-0 z-50 border-b transition-all duration-300 ${
         floating
           ? "border-transparent bg-gradient-to-b from-abismo/50 to-transparent"
