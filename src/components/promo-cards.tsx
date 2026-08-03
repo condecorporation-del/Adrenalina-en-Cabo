@@ -45,7 +45,7 @@ export function PromoCards({
         <Reveal key={p.title} delay={i * 70} className="h-full">
           <Link
             href={`/${locale}${p.href}`}
-            className="shadow-suave group flex h-full flex-col overflow-hidden rounded-[0.875rem] bg-panel ring-1 ring-linea transition-[box-shadow,transform,--tw-ring-color] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:shadow-alta hover:ring-marca/35"
+            className="borde-luz shadow-suave group flex h-full flex-col overflow-hidden rounded-[0.875rem] bg-panel ring-1 ring-linea transition-[box-shadow,transform,--tw-ring-color] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:shadow-alta hover:ring-marca/35"
           >
             <div className="tile relative aspect-[7/6] w-full rounded-none">
               {images?.[p.photo] ? (

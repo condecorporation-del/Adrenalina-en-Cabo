@@ -350,13 +350,19 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
       {/* -------------------------------------------------- 9. RESERVA TU TOUR */}
       <section className="py-14 sm:py-20">
         <div className="container-x">
-          <div className="relative isolate overflow-hidden rounded-[1.75rem] text-center">
+          {/* `overflow-clip` y no `hidden`: hidden crea un contenedor de scroll
+              propio, y el parallax de la foto se engancharía a él —que nunca
+              se mueve— en vez de al de la página. clip recorta igual. */}
+          <div className="relative isolate overflow-clip rounded-[1.75rem] text-center">
+            {/* La foto deriva despacio mientras la sección cruza la pantalla:
+                da profundidad sin que nada se mueva de su sitio. Se escala un
+                poco de más para que el desplazamiento nunca destape un borde. */}
             <Image
               src="/tours/atv-playa.webp"
               alt=""
               fill
               sizes="100vw"
-              className="-z-10 object-cover"
+              className="parallax -z-10 scale-110 object-cover"
             />
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-noche/70 via-noche/55 to-noche/80" />
 

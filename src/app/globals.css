@@ -207,6 +207,39 @@ p {
   color: var(--color-marca);
 }
 
+/* El barrido de luz va en los dos botones de marca, no clase por clase:
+   así lo hereda cada CTA del sitio y ninguno se queda fuera por olvido.
+   `isolation` mantiene el destello dentro del botón aunque tenga sombra. */
+.btn-grad,
+.btn-naranja {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.btn-grad::after,
+.btn-naranja::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    transparent 38%,
+    rgb(255 255 255 / 0.3) 50%,
+    transparent 62%
+  );
+  transform: translateX(-130%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.btn-grad:hover::after,
+.btn-naranja:hover::after,
+.btn-grad:focus-visible::after,
+.btn-naranja:focus-visible::after {
+  transform: translateX(130%);
+}
+
 /* --- Tarjetas: borde fino y sombra suave, no degradado ------------------ */
 
 @utility edge {
@@ -395,9 +428,118 @@ p {
   animation: menu-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
+/* --- Acabados finos -------------------------------------------------------
+   Cuatro gestos, todos en CSS. Nada de esto carga un kilobyte de JavaScript
+   ni depende de que llegue a ejecutarse: si el navegador no los soporta, el
+   elemento simplemente se queda quieto.
+   ------------------------------------------------------------------------- */
+
+/* Barrido de luz. Una banda diagonal cruza el botón al pasar el cursor: es
+   lo que separa un botón que se siente de metal de uno que se siente de
+   papel. Una sola pasada, sin repetir. */
+@utility sheen {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    transparent 38%,
+    rgb(255 255 255 / 0.32) 50%,
+    transparent 62%
+  );
+  transform: translateX(-130%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.sheen:hover::after,
+.sheen:focus-visible::after {
+  transform: translateX(130%);
+}
+
+/* Canto de luz. El borde pasa de azul de mar a naranja al pasar el cursor.
+   Se dibuja con una máscara sobre el propio borde, sin un div extra y sin
+   mover un solo píxel del contenido. */
+@utility borde-luz {
+  position: relative;
+}
+
+.borde-luz::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(
+    135deg,
+    var(--color-marca),
+    var(--color-aqua) 45%,
+    var(--color-coral)
+  );
+  /* Las abreviaturas van primero: `-webkit-mask` reinicia el composite, así
+     que si se declara después borra el `exclude` y el borde se pinta sólido. */
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  pointer-events: none;
+}
+
+.borde-luz:hover::before {
+  opacity: 1;
+}
+
+/* Parallax de verdad, sin JavaScript. `animation-timeline: view()` ata la
+   animación al recorrido del elemento por la pantalla, y corre en el
+   compositor del navegador: no se traba ni con el scroll rápido. Donde no
+   esté soportado, la capa simplemente no se mueve. */
+/* La escala va dentro de los fotogramas: la animación reemplaza el `transform`
+   completo, así que un `scale` puesto por clase se perdería en cuanto arranca
+   y el desplazamiento destaparía los bordes de la foto. */
+@keyframes deriva-y {
+  from {
+    transform: translate3d(0, -5%, 0) scale(1.12);
+  }
+  to {
+    transform: translate3d(0, 5%, 0) scale(1.12);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .parallax {
+      animation: deriva-y linear both;
+      animation-timeline: view();
+      animation-range: cover 0% cover 100%;
+      will-change: transform;
+    }
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  .sheen::after,
+  .btn-grad::after,
+  .btn-naranja::after {
+    display: none;
+  }
+  .parallax {
+    animation: none !important;
+    transform: none !important;
   }
   .rise,
   .hero-zoom,
