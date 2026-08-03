@@ -114,12 +114,20 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
       <PromoSlider
         slides={t.promoSlider}
         locale={locale}
+        /* Una actividad distinta por diapositiva, no cuatro tomas del Sky
+           Bike. El orden sigue al texto de cada slide: el parque completo,
+           el 2 en 1 (cuatrimoto y camello), el 3 en 1 (motor) y el Sky Bike.
+           Ojo: camellos.webp y ninos.webp son de 450 px, así que se ven
+           suaves a pantalla completa. Ver public/tours/LEEME.md. */
         images={[
-          "/tours/hero-skybike.webp",
+          "/tours/camellos.webp",
           "/tours/atv-playa.webp",
-          "/tours/parque.webp",
+          "/tours/ninos.webp",
           "/tours/sky-bike.webp",
         ]}
+        /* El camello se sube para que no se corten las caras; el RZR se baja
+           un poco para que quede la unidad y no el muro del fondo. */
+        focus={["center 22%", "center", "center 62%", "center"]}
       />
 
       {/* ----------------------------------------------------- 2. PROMOCIONES */}

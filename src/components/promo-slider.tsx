@@ -32,11 +32,19 @@ export function PromoSlider({
   slides,
   locale,
   images,
+  focus,
 }: {
   slides: readonly Slide[];
   locale: Locale;
   /** Fotos por índice de slide; si falta, cae al degradado. */
   images?: (string | undefined)[];
+  /**
+   * Punto focal de cada foto (`background-position`). El hero es mucho más
+   * ancho que alto, así que una foto casi cuadrada se recorta por arriba y
+   * por abajo: sin esto, al camello se le cortan las caras de quienes lo
+   * montan. Si no se indica, se centra.
+   */
+  focus?: (string | undefined)[];
 }) {
   const [i, setI] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -69,8 +77,11 @@ export function PromoSlider({
           <div className="noise relative isolate text-white">
             {images?.[n] ? (
               <div
-                className={`absolute inset-0 -z-10 bg-cover bg-center ${n === i ? "hero-zoom" : ""}`}
-                style={{ backgroundImage: `url(${images[n]})` }}
+                className={`absolute inset-0 -z-10 bg-cover ${n === i ? "hero-zoom" : ""}`}
+                style={{
+                  backgroundImage: `url(${images[n]})`,
+                  backgroundPosition: focus?.[n] ?? "center",
+                }}
               />
             ) : (
               <div className={`absolute inset-0 -z-10 ${PHOTO[s.photo]} ${n === i ? "hero-zoom" : ""}`} />
