@@ -249,9 +249,13 @@ export const ACTIVITIES: readonly Activity[] = [
   },
 
   // --- Bicicletas ----------------------------------------------------------
+  // Sin foto a propósito: la que había (`parque.webp`) es del Sky Bike, o sea
+  // la bici colgada del cable, no estas dos que van por el suelo. Mostrarla
+  // aquí hacía parecer que Bicicletas y Sky Bikes eran el mismo producto.
+  // Mejor el degradado hasta que haya fotos reales de bici eléctrica y de
+  // montaña. Ver LEEME.md en public/tours/ para cargarlas.
   {
     slug: "bici-electrica",
-    image: "/tours/parque.webp",
     photo: "desierto",
     category: "bike",
     price: 60,
@@ -270,7 +274,6 @@ export const ACTIVITIES: readonly Activity[] = [
   },
   {
     slug: "bici-montana",
-    image: "/tours/parque.webp",
     photo: "canon",
     category: "bike",
     price: 69,

@@ -8,16 +8,37 @@ comercial. Si esa relación cambia, hay que reemplazarlas.
 
 | Archivo | Se usa en |
 |---|---|
-| `atv.webp` | ATV Migriño, ATV Playa y Dunas |
+| `atv.webp` | ATV Migriño |
+| `atv-playa.webp` | ATV Playa y Dunas |
 | `utv.webp` | Side by Side, Can-Am X3, Maverick |
 | `ninos.webp` | Mini RZR, página de Niños |
-| `camellos.webp`, `camellos-2.webp` | Paseo en camello |
+| `camellos.webp` | Paseo en camello |
+| `camellos-2.webp` | Combo 2 en 1, mosaico de Combos |
 | `caballos.webp` | Cabalgata |
-| `sky-bike.webp` | Sky Bike |
-| `hero-skybike.webp` | Portada (2560 px) |
-| `skybike-aereo.webp` | Combo Balandra, tomas aéreas |
-| `combos.webp`, `combo-skybike.webp` | Combos, bicicletas |
-| `pase-de-dia.webp` | Pase de Día |
+| `sky-bike.webp` | Sky Bike, bloque de Bienvenida |
+| `hero-skybike.webp` | Portada (2560 px), Combo 3 en 1 |
+| `skybike-aereo.webp` | Tomas aéreas |
+| `parque.webp` | — libre (es una toma del Sky Bike) |
+| `torre.webp` | Combo Balandra, mosaico de Park Pass |
+
+## Fotos que faltan
+
+Estas actividades salen con degradado de color en vez de foto. Hay que
+pedírselas al cliente:
+
+| Actividad | Por qué |
+|---|---|
+| Bicicleta eléctrica | No hay foto de bici de suelo |
+| Bicicleta de montaña | No hay foto de bici de suelo |
+| Can-Am X3 ($240) | Comparte foto con Side by Side y Maverick |
+| Maverick RC/RS ($480) | Comparte foto con Side by Side y Can-Am X3 |
+
+Ojo con las bicicletas: **no** sirve una foto del Sky Bike. El Sky Bike es la
+bici colgada del cable; estas dos van por el suelo. Usar una del Sky Bike hace
+parecer que son el mismo producto (ya pasó una vez).
+
+Los tres UTV cuestan $164, $240 y $480. Con la misma foto en los tres, no se
+ve por qué uno cuesta el triple que el otro.
 
 ## Cómo cambiar una foto
 
