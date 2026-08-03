@@ -108,13 +108,13 @@ export function SiteHeader({
             superior de la ventana, que es donde vive el header fijo. */}
         <Link
           href={`/${locale}`}
-          className="relative z-10 mt-1.5 h-24 w-24 shrink-0 self-start drop-shadow-[0_6px_14px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:scale-105 sm:mt-2 sm:h-32 sm:w-32"
+          className="relative z-10 mt-1.5 h-20 w-20 shrink-0 self-start drop-shadow-[0_6px_14px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:scale-105 sm:mt-2 sm:h-28 sm:w-28"
         >
           <Image
             src="/logo-adrenalina-cabo.png"
             alt="Adrenalina Cabo"
             fill
-            sizes="128px"
+            sizes="112px"
             className="object-contain"
             priority
           />

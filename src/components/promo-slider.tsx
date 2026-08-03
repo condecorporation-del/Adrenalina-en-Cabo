@@ -84,25 +84,21 @@ export function PromoSlider({
 
             <div className="container-x flex min-h-[84svh] flex-col justify-center pb-24 pt-32 sm:pt-36">
               <div className="max-w-2xl">
-                <span className="rise eyebrow inline-block rounded-full bg-coral/95 px-3.5 py-1.5 text-white shadow-[0_4px_14px_-4px_rgb(255_104_3/0.6)]">
-                  {s.eyebrow}
-                </span>
                 <h2
-                  className="rise mt-5 text-4xl leading-[1.05] sm:text-6xl lg:text-7xl"
-                  style={{ animationDelay: "90ms" }}
+                  className="rise text-4xl leading-[1.05] sm:text-6xl lg:text-7xl"
                 >
                   {s.title}
                 </h2>
                 <p
                   className="rise mt-4 max-w-xl leading-relaxed text-white/85"
-                  style={{ animationDelay: "180ms" }}
+                  style={{ animationDelay: "90ms" }}
                 >
                   {s.body}
                 </p>
                 <Link
                   href={`/${locale}${s.href}`}
                   className="rise btn-grad mt-7 inline-block rounded-full px-7 py-3.5 text-sm"
-                  style={{ animationDelay: "270ms" }}
+                  style={{ animationDelay: "180ms" }}
                 >
                   {s.cta}
                 </Link>
