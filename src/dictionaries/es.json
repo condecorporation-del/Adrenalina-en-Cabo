@@ -286,7 +286,7 @@
   "local": {
     "eyebrow": "Tarifa Local",
     "title": "Si vives en Baja, esto es para ti",
-    "subtitle": "Sabemos que quien vive aquí no debería pagar precio de turista. Presenta tu identificación con domicilio en Baja California Sur y accede a tarifa local en todas las actividades.",
+    "subtitle": "Sabemos que quien vive aquí no debería pagar precio de turista. Presenta tu identificación con domicilio en Baja California Sur y accede al 30% de descuento en todas las actividades.",
     "howTitle": "Cómo funciona",
     "how": [
       "Escríbenos por WhatsApp y menciona que eres local.",
@@ -431,11 +431,11 @@
       },
       {
         "q": "¿Hay comida en el parque?",
-        "a": "Sí. Tenemos restaurante con comida a la carta, opciones vegetarianas, café y bar. Con el Pase de Día la comida va incluida."
+        "a": "Sí. Tenemos cafetería con comida saludable, área de comida rápida, opciones veganas y bar. También está el Beach Club, con comida a la carta. Con el Pase de Día la comida va incluida."
       },
       {
         "q": "¿Puedo cancelar o cambiar mi reserva?",
-        "a": "Sí, sin penalización hasta 48 horas antes de tu tour. Con menos de 48 horas, o si no te presentas, no hay reembolso. Si cancelamos nosotros por clima, reprogramamos o te devolvemos todo."
+        "a": "Sí, sin penalización hasta 48 horas antes de tu tour si ya lo pagaste completo. Si apartaste con anticipo, el plazo es de 72 horas. Con menos de ese tiempo, o si no te presentas, no hay reembolso. Si cancelamos nosotros por clima, reprogramamos o te devolvemos todo."
       },
       {
         "q": "¿Cómo puedo pagar?",
@@ -443,7 +443,11 @@
       },
       {
         "q": "¿Hay descuento para locales?",
-        "a": "Sí. Si vives en Baja California Sur, presenta tu identificación con domicilio y accede a la tarifa local. Escríbenos por WhatsApp para que te la confirmemos."
+        "a": "Sí, 30% de descuento. Si vives en Baja California Sur, presenta tu identificación con domicilio y accede a la tarifa local. Escríbenos por WhatsApp para que te la confirmemos."
+      },
+      {
+        "q": "¿Puede acompañarme alguien que no va a participar?",
+        "a": "Sí, pero también paga la entrada al parque de $25 USD. Con eso puede usar las áreas comunes, el Beach Club y esperarte sin problema."
       }
     ],
     "seeMore": "Ver más"
@@ -641,14 +645,17 @@
     "Safari por el desierto",
     "Equipo de seguridad",
     "Transporte redondo",
-    "Kids Club (bajo petición)",
-    "Lockers",
-    "Agua fresca",
+    "Kids Club sin costo (de 6 meses a 12 años)",
+    "Lockers sin costo",
+    "Buffet con refrescos o agua",
     "Tacos y quesadillas (res, pastor, pollo)"
   ],
   "extraFees": [
     "Entrada al parque, obligatoria: $25 USD por persona, aplica a todos los tours.",
+    "Acompañantes que no participan: también pagan la entrada al parque.",
     "Paquete de fotografía (opcional).",
+    "Menú a la carta (opcional).",
+    "Souvenirs (opcional).",
     "Protección del vehículo (opcional): si decides no tomarla, se requiere una tarjeta de crédito para retención temporal.",
     "Tour privado (opcional): experiencia exclusiva para tu grupo, con acceso a celulares y cámaras.",
     "Guía personalizado (opcional)."
@@ -670,8 +677,11 @@
     "Aplicación de la política: a quien entre al mar se le termina el tour de inmediato sin reembolso, se le traslada de regreso a discreción del personal, y no se le permite reingresar a ninguna actividad."
   ],
   "cancellation": [
+    "Anticipos (pago parcial), más de 72 horas antes: reembolso posible, menos los cargos administrativos que apliquen.",
+    "Anticipos (pago parcial), menos de 72 horas antes: sin reembolso.",
     "Más de 48 horas antes de la actividad (pagos completos): reembolso posible, menos los cargos administrativos que apliquen.",
     "Menos de 48 horas antes, llegadas tarde o no presentarse: sin reembolsos ni cambios.",
+    "Menos de 48 horas antes: sin reembolso, sin importar la fecha en que se compró.",
     "Clima o problemas operativos: reembolso completo o cambio de fecha sin penalización, sujeto a disponibilidad.",
     "Cambios posteriores a una promoción aplicada: penalización del 20%."
   ],

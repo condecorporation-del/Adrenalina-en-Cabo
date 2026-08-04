@@ -286,7 +286,7 @@
   "local": {
     "eyebrow": "Local Rate",
     "title": "If you live in Baja, this one's for you",
-    "subtitle": "Anyone who lives here shouldn't be paying tourist prices. Show ID with a Baja California Sur address and get the local rate on every activity.",
+    "subtitle": "Anyone who lives here shouldn't be paying tourist prices. Show ID with a Baja California Sur address and get 30% off every activity.",
     "howTitle": "How it works",
     "how": [
       "Message us on WhatsApp and mention you're local.",
@@ -431,11 +431,11 @@
       },
       {
         "q": "Is there food at the park?",
-        "a": "Yes. We have a restaurant with à la carte dining, vegetarian options, coffee and a bar. With the Day Pass, food is included."
+        "a": "Yes. We have a cafeteria with healthy food, a fast-food area, vegan options and a bar. There's also the Beach Club, with à la carte meals. With the Day Pass, food is included."
       },
       {
         "q": "Can I cancel or change my booking?",
-        "a": "Yes, with no penalty up to 48 hours before your tour. Under 48 hours, or a no-show, is non-refundable. If we cancel for weather, we reschedule or refund you in full."
+        "a": "Yes, with no penalty up to 48 hours before your tour if you paid in full. If you booked with a deposit, the window is 72 hours. Under that, or a no-show, is non-refundable. If we cancel for weather, we reschedule or refund you in full."
       },
       {
         "q": "How can I pay?",
@@ -443,7 +443,11 @@
       },
       {
         "q": "Is there a discount for locals?",
-        "a": "Yes. If you live in Baja California Sur, show ID with your address and get the local rate. Message us on WhatsApp and we'll confirm it."
+        "a": "Yes, 30% off. If you live in Baja California Sur, show ID with your address and get the local rate. Message us on WhatsApp and we'll confirm it."
+      },
+      {
+        "q": "Can someone come along without taking the tour?",
+        "a": "Yes, but they also pay the $25 USD park entrance fee. That covers the common areas and the Beach Club while they wait for you."
       }
     ],
     "seeMore": "See more"
@@ -641,14 +645,17 @@
     "Desert safari",
     "Safety equipment",
     "Round-trip transportation",
-    "Kids Club (upon request)",
-    "Lockers",
-    "Fresh water",
+    "Free Kids Club (6 months to 12 years)",
+    "Free lockers",
+    "Buffet with soft drinks or water",
     "Tacos & quesadillas (beef, pastor, chicken)"
   ],
   "extraFees": [
     "Mandatory park entrance fee: $25 USD per person, applicable to all tours.",
+    "Non-participating spectators: they also pay the park entrance fee.",
     "Photography package (optional).",
+    "À la carte menu (optional).",
+    "Souvenirs (optional).",
     "Vehicle protection (optional): if you choose not to take it, a credit card is required for a temporary hold.",
     "Private tour (optional): exclusive experience for your group, with access to phones and cameras.",
     "Personalized guide (optional)."
@@ -670,8 +677,11 @@
     "Enforcement policy: any guest who enters the ocean will have their tour terminated immediately without refund, transportation back is arranged at staff discretion, and re-entry into any activity will not be permitted."
   ],
   "cancellation": [
+    "Deposits (partial payment), more than 72 hours before: refund possible, less any applicable administrative fees.",
+    "Deposits (partial payment), less than 72 hours before: non-refundable.",
     "More than 48 hours before the activity (full payments): refund possible, less any applicable administrative fees.",
     "Less than 48 hours before, late arrivals or no-shows: no refunds or changes.",
+    "Less than 48 hours before: non-refundable, regardless of the purchase date.",
     "Weather or operational issues: full refund or date change without penalty, subject to availability.",
     "Changes after an applied promotion: a 20% penalty applies."
   ],
