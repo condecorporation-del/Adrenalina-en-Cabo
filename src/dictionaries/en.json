@@ -641,49 +641,49 @@
   },
   "included": [
     "Tequila tasting at our museum",
-    "Ecological hike",
-    "Desert safari",
-    "Safety equipment",
-    "Round-trip transportation",
-    "Free Kids Club (6 months to 12 years)",
+    "Walking tour of the reserve",
+    "Safari across the desert",
+    "All the safety gear",
+    "Hotel pick-up and drop-off",
+    "Free Kids Club, 6 months to 12 years",
     "Free lockers",
-    "Buffet with soft drinks or water",
-    "Tacos & quesadillas (beef, pastor, chicken)"
+    "Buffet with water or a soft drink",
+    "Beef, pastor or chicken tacos and quesadillas"
   ],
   "extraFees": [
-    "Mandatory park entrance fee: $25 USD per person, applicable to all tours.",
-    "Non-participating spectators: they also pay the park entrance fee.",
-    "Photography package (optional).",
-    "À la carte menu (optional).",
-    "Souvenirs (optional).",
-    "Vehicle protection (optional): if you choose not to take it, a credit card is required for a temporary hold.",
-    "Private tour (optional): exclusive experience for your group, with access to phones and cameras.",
-    "Personalized guide (optional)."
+    "Park entrance: $25 USD per person. It's required and charged separately on every tour.",
+    "Anyone who comes along without doing an activity pays that same entrance fee.",
+    "A photo package, if you want one.",
+    "Whatever you order off the à la carte menu.",
+    "Souvenirs from the shop.",
+    "Vehicle coverage, optional. If you'd rather skip it, we hold a credit card as a deposit for the length of the tour.",
+    "Private tour, optional: your group goes out alone, and phones and cameras are allowed.",
+    "A guide dedicated to your group, optional."
   ],
   "recommendations": [
-    "Comfortable or athletic clothing",
-    "Closed-toe shoes",
+    "Athletic clothes, or anything you don't mind getting dusty",
+    "Closed-toe shoes, no sandals",
     "Sunscreen",
-    "An additional payment method",
-    "Sweater in winter"
+    "A second way to pay, just in case",
+    "Something warm if you're coming in winter"
   ],
   "safety": [
-    "The use of cell phones, cameras and electronic devices is not permitted during the activity. GoPro-type hands-free cameras are permitted.",
-    "Our experiences take place outdoors and require a high level of interaction. This measure protects your safety and that of all participants, and lets you enjoy the activity without distractions.",
-    "On the private tour, phones and cameras are permitted, as it does not affect the safety or experience of the rest of the group.",
-    "Ocean conditions along the property are extremely dangerous and not suitable for swimming. The area has strong currents, powerful waves and hazardous underwater conditions.",
-    "While beaches in Mexico are public, entering the ocean is not permitted at any time during your visit or any activity.",
-    "Anyone entering the ocean does so entirely at their own risk, and releases the company, its owners, employees, affiliates and partners from any liability for injury, accident, loss or death.",
-    "Enforcement policy: any guest who enters the ocean will have their tour terminated immediately without refund, transportation back is arranged at staff discretion, and re-entry into any activity will not be permitted."
+    "Phones, cameras and any electronic device stay put away while the activity runs. The one exception is a hands-free camera such as a GoPro, which you're welcome to bring.",
+    "Everything happens outdoors with the group in motion. The rule is there to look after you and everyone around you, and so you ride the trail instead of watching it through a screen.",
+    "The rule doesn't apply on a private tour: bring your phone and your camera, since there's no other group to affect.",
+    "The ocean along this beach is genuinely dangerous and not swimmable: rip currents, heavy surf and an uneven bottom.",
+    "Every beach in Mexico is public, but inside the property nobody goes in the water at any point, before or after your activity.",
+    "Anyone who chooses to enter the ocean does so at their own risk, and releases the company, its owners, employees, affiliates and partners from any liability for injury, accident, loss or death.",
+    "How it's enforced: anyone who goes in the water has their tour ended on the spot with no refund, is driven back whenever staff decide, and cannot join any other activity that day."
   ],
   "cancellation": [
-    "Deposits (partial payment), more than 72 hours before: refund possible, less any applicable administrative fees.",
-    "Deposits (partial payment), less than 72 hours before: non-refundable.",
-    "More than 48 hours before the activity (full payments): refund possible, less any applicable administrative fees.",
-    "Less than 48 hours before, late arrivals or no-shows: no refunds or changes.",
-    "Less than 48 hours before: non-refundable, regardless of the purchase date.",
-    "Weather or operational issues: full refund or date change without penalty, subject to availability.",
-    "Changes after an applied promotion: a 20% penalty applies."
+    "You booked with a deposit and give us more than 72 hours' notice: we refund what you paid, less any administrative fees that apply.",
+    "You booked with a deposit and give us less than 72 hours' notice: no refund.",
+    "You paid in full and give us more than 48 hours' notice: we refund what you paid, less any administrative fees that apply.",
+    "Under 48 hours' notice, arriving late or not showing up: no refund and no date change.",
+    "Those 48 hours count the same for everyone, no matter how far ahead you booked.",
+    "If we're the ones cancelling, for weather or an operational problem: you get everything back or we move your date at no cost, whichever fits.",
+    "If you move your booking after a promotion has already been applied: a 20% penalty applies."
   ],
   "cats": {
     "title": "Categories"
