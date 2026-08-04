@@ -11,6 +11,8 @@ import { PromoSlider } from "@/components/promo-slider";
 import { PromoCards } from "@/components/promo-cards";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { Reveal } from "@/components/reveal";
+import { TextoRevelado } from "@/components/texto-revelado";
+import { Spotlight } from "@/components/spotlight";
 
 /** Trazo fino y limpio, igual para los seis íconos de esta página. */
 const iconProps = {
@@ -94,7 +96,7 @@ function Titulo({
       <Tag
         className={`text-[1.75rem] sm:text-[2.25rem] lg:text-[2.625rem] ${eyebrow ? "mt-3.5" : ""}`}
       >
-        {title}
+        <TextoRevelado text={title} />
       </Tag>
       <span className="filete mt-5" aria-hidden />
     </div>
@@ -134,7 +136,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
       <section className="py-14 sm:py-20">
         <div className="container-x">
           <Titulo eyebrow={t.promos.eyebrow} title={t.promos.title} />
-          <div className="mt-10">
+          <Spotlight className="mt-10">
             <PromoCards
               promos={t.promos.items}
               locale={locale}
@@ -146,7 +148,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
                 canon: "/tours/utv.webp",
               }}
             />
-          </div>
+          </Spotlight>
         </div>
       </section>
 
@@ -154,7 +156,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
       <section className="border-y border-linea bg-fondo-2 py-14 sm:py-20">
         <div className="container-x">
           <Titulo title={t.cats.title} as="h3" />
-          <div className="mt-10">
+          <Spotlight className="mt-10">
             <CategoryTiles
               locale={locale}
               labels={{
@@ -169,7 +171,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
                 kids: t.nav.kids,
               }}
             />
-          </div>
+          </Spotlight>
         </div>
       </section>
 
@@ -270,7 +272,14 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
           </div>
 
           <Reveal>
-            <div className="shadow-suave overflow-hidden rounded-2xl ring-1 ring-linea">
+            {/* El mapa entra desaturado y con un velo del azul de marca, para
+                que no rompa la paleta con los colores de Google. Al pasar el
+                cursor recupera su color: ahí ya lo estás usando, no viéndolo. */}
+            <div className="group shadow-suave relative overflow-hidden rounded-2xl ring-1 ring-linea">
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-0 z-10 bg-marca/15 opacity-100 transition-opacity duration-500 group-hover:opacity-0"
+              />
               <iframe
                 title={t.location.title}
                 src={`https://www.google.com/maps?q=${encodeURIComponent(t.footer.address)}&output=embed`}
@@ -278,7 +287,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
                 referrerPolicy="no-referrer-when-downgrade"
                 /* Deja usar el mapa sin que su scroll arrastre la página. */
                 data-lenis-prevent
-                className="h-80 w-full sm:h-96"
+                className="h-80 w-full grayscale-[0.55] transition-[filter] duration-500 group-hover:grayscale-0 sm:h-96"
               />
             </div>
           </Reveal>
